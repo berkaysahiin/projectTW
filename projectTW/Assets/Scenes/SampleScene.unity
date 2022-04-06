@@ -232,7 +232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  _lineRenderer: {fileID: 1868843329}
+  lineRenderer: {fileID: 1868843329}
 --- !u!1 &119048000
 GameObject:
   m_ObjectHideFlags: 0
@@ -476,7 +476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  _lineRenderer: {fileID: 1868843329}
+  lineRenderer: {fileID: 1868843329}
 --- !u!1 &201611643
 GameObject:
   m_ObjectHideFlags: 0
@@ -853,7 +853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  _lineRenderer: {fileID: 1868843329}
+  lineRenderer: {fileID: 1868843329}
 --- !u!1 &644847973
 GameObject:
   m_ObjectHideFlags: 0
@@ -1575,7 +1575,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  _lineRenderer: {fileID: 1868843329}
+  lineRenderer: {fileID: 1868843329}
 --- !u!1 &1407525065
 GameObject:
   m_ObjectHideFlags: 0
@@ -1685,7 +1685,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  _lineRenderer: {fileID: 1868843329}
+  lineRenderer: {fileID: 1868843329}
 --- !u!1 &1567532487
 GameObject:
   m_ObjectHideFlags: 0

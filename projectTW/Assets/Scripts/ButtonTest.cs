@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class ButtonTest : MonoBehaviour
 {
     public bool buttonState = false;
-    public LineRendererTest _lineRenderer;
+    public LineRendererTest lineRenderer;
     private void OnMouseDown() 
     {
         ClickButton();
@@ -14,27 +14,17 @@ public class ButtonTest : MonoBehaviour
 
     private void ClickButton()
     {
-       
-
         if(buttonState == false)
         {
-             _lineRenderer.myIndex += 1;
-
-             _lineRenderer.previousClicked = gameObject.GetComponent<ButtonTest>();
-           
+            buttonState = true;
+            lineRenderer.myIndex += 1;
+            lineRenderer.previousClicked = gameObject.GetComponent<ButtonTest>();
         } 
         else
         {
-            _lineRenderer.clickedButtons[_lineRenderer.myIndex] = null;
-
-            _lineRenderer.myIndex -= 1;
-
-            Debug.Log("i worked");
-            
+            lineRenderer.clickedButtons[lineRenderer.myIndex].buttonState = false;
+            lineRenderer.clickedButtons[lineRenderer.myIndex] = null;
+            lineRenderer.myIndex -= 1;
         }
-
-        buttonState = !buttonState;
-
-        
     }  
 }
