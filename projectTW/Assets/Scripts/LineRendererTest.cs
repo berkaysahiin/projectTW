@@ -32,8 +32,7 @@ public class LineRendererTest : MonoBehaviour
 
         Debug.Log(previousClicked);
 
-
-        Debug.Log(myIndex);
+        Debug.Log(myIndex);                    
     }
 
 }
