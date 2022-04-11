@@ -8,13 +8,40 @@ public class LineRendererTest : MonoBehaviour
     public ButtonTest[] buttons;
     public ButtonTest[] clickedButtons;
     public ButtonTest previousClicked;
+    public ButtonTest lastClicked;
+    public bool resetGame = false;
 
     public int myIndex = -1;
 
     private void Update() 
     {
-        lineRenderer.positionCount = myIndex + 1;
+        
 
+        LineRendererPositionCountManager();
+
+        ClickedButtonManager();
+
+        DrawLine();   
+
+        ResetGame();    
+        
+    }
+
+    private void LineRendererPositionCountManager()
+    {
+        lineRenderer.positionCount = myIndex + 1;
+    }
+
+    private void DrawLine()
+    {
+        for(int i=0; i<lineRenderer.positionCount; i++)
+        {
+            lineRenderer.SetPosition(i, clickedButtons[i].GetComponentInParent<Transform>().position);
+        }  
+    }
+
+    private void ClickedButtonManager()
+    {
         if(myIndex > -1)
          {
             if(previousClicked != null)
@@ -22,17 +49,34 @@ public class LineRendererTest : MonoBehaviour
                 clickedButtons[myIndex] = previousClicked;
             }
             
+            if(previousClicked != null) 
+            {
+                lastClicked = previousClicked;
+            }
+
             previousClicked = null;
-        }  
-
-        for(int i=0; i<lineRenderer.positionCount; i++)
-        {
-            lineRenderer.SetPosition(i, clickedButtons[i].GetComponentInParent<Transform>().position);
         }
+    }
 
-        Debug.Log(previousClicked);
+    private void ResetGame()
+    {
+        if(resetGame == true)
+        {
+            resetGame = false;
 
-        Debug.Log(myIndex);                    
+            lastClicked = null;
+
+            myIndex = -1;
+
+            for(int i=0; i<clickedButtons.Length; i++)
+            {
+                if(clickedButtons[i] != null)
+                {
+                    clickedButtons[i].buttonState = false;
+                    clickedButtons[i] = null;
+                }
+            }
+        }
     }
 
 }
