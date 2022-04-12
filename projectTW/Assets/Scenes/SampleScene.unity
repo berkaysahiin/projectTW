@@ -37,8 +37,8 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 36516497}
   - component: {fileID: 36516496}
   - component: {fileID: 36516495}
-  - component: {fileID: 36516494}
   m_Layer: 0
   m_Name: 3-0 (4)
   m_TagString: Untagged
@@ -157,26 +156,6 @@ Transform:
   m_Father: {fileID: 1937849540}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &36516494
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 36516492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 4
-  gridIndexX: 3
-  gridIndexY: 4
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &36516495
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -209,7 +188,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -290,7 +269,6 @@ GameObject:
   - component: {fileID: 106483714}
   - component: {fileID: 106483713}
   - component: {fileID: 106483712}
-  - component: {fileID: 106483711}
   m_Layer: 0
   m_Name: 6-2
   m_TagString: Untagged
@@ -312,26 +290,6 @@ Transform:
   m_Father: {fileID: 97878179}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &106483711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 106483709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 4
-  gridIndexX: 6
-  gridIndexY: 2
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &106483712
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -364,7 +322,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -406,7 +364,6 @@ GameObject:
   - component: {fileID: 165211476}
   - component: {fileID: 165211475}
   - component: {fileID: 165211474}
-  - component: {fileID: 165211473}
   m_Layer: 0
   m_Name: 6-0 (6)
   m_TagString: Untagged
@@ -428,26 +385,6 @@ Transform:
   m_Father: {fileID: 1382304811}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &165211473
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 165211471}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 4
-  gridIndexX: 6
-  gridIndexY: 6
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &165211474
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -480,7 +417,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -559,11 +496,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: 19
   gridIndexX: 7
   gridIndexY: 6
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &174144662
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -707,7 +645,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 192675772}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &192675776
 Transform:
   m_ObjectHideFlags: 0
@@ -737,11 +675,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 2
+  orderIndex: 0
   gridIndexX: 0
   gridIndexY: 0
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!1 &241114025
 GameObject:
   m_ObjectHideFlags: 0
@@ -754,7 +693,6 @@ GameObject:
   - component: {fileID: 241114030}
   - component: {fileID: 241114029}
   - component: {fileID: 241114028}
-  - component: {fileID: 241114027}
   m_Layer: 0
   m_Name: 4-2
   m_TagString: Untagged
@@ -776,26 +714,6 @@ Transform:
   m_Father: {fileID: 97878179}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &241114027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 241114025}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 4
-  gridIndexX: 4
-  gridIndexY: 2
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &241114028
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -828,7 +746,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -870,7 +788,6 @@ GameObject:
   - component: {fileID: 241558188}
   - component: {fileID: 241558187}
   - component: {fileID: 241558186}
-  - component: {fileID: 241558185}
   m_Layer: 0
   m_Name: 8-0
   m_TagString: Untagged
@@ -892,26 +809,6 @@ Transform:
   m_Father: {fileID: 1110140334}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &241558185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 241558183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 4
-  gridIndexX: 8
-  gridIndexY: 0
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &241558186
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -944,7 +841,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1023,11 +920,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: -1
   gridIndexX: 2
   gridIndexY: 6
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &247370912
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1102,7 +1000,6 @@ GameObject:
   - component: {fileID: 253851864}
   - component: {fileID: 253851863}
   - component: {fileID: 253851862}
-  - component: {fileID: 253851861}
   m_Layer: 0
   m_Name: 0-0 (4)
   m_TagString: Untagged
@@ -1124,26 +1021,6 @@ Transform:
   m_Father: {fileID: 1937849540}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &253851861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 253851859}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 2
-  gridIndexX: 0
-  gridIndexY: 4
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &253851862
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1176,7 +1053,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1218,7 +1095,6 @@ GameObject:
   - component: {fileID: 316521766}
   - component: {fileID: 316521765}
   - component: {fileID: 316521764}
-  - component: {fileID: 316521763}
   m_Layer: 0
   m_Name: 8-0 (3)
   m_TagString: Untagged
@@ -1240,26 +1116,6 @@ Transform:
   m_Father: {fileID: 937933996}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &316521763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 316521761}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 4
-  gridIndexX: 8
-  gridIndexY: 3
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &316521764
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1292,7 +1148,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1334,7 +1190,6 @@ GameObject:
   - component: {fileID: 320374321}
   - component: {fileID: 320374320}
   - component: {fileID: 320374319}
-  - component: {fileID: 320374318}
   m_Layer: 0
   m_Name: 4-0 (6)
   m_TagString: Untagged
@@ -1356,26 +1211,6 @@ Transform:
   m_Father: {fileID: 1382304811}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &320374318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 320374316}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 4
-  gridIndexX: 4
-  gridIndexY: 6
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &320374319
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1408,7 +1243,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1450,7 +1285,6 @@ GameObject:
   - component: {fileID: 323207721}
   - component: {fileID: 323207720}
   - component: {fileID: 323207719}
-  - component: {fileID: 323207718}
   m_Layer: 0
   m_Name: 0-0 (3)
   m_TagString: Untagged
@@ -1472,26 +1306,6 @@ Transform:
   m_Father: {fileID: 937933996}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &323207718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 323207716}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 2
-  gridIndexX: 0
-  gridIndexY: 3
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &323207719
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1524,7 +1338,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1566,7 +1380,6 @@ GameObject:
   - component: {fileID: 360334922}
   - component: {fileID: 360334921}
   - component: {fileID: 360334920}
-  - component: {fileID: 360334919}
   m_Layer: 0
   m_Name: 4-1
   m_TagString: Untagged
@@ -1588,26 +1401,6 @@ Transform:
   m_Father: {fileID: 1802488377}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &360334919
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 360334917}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 4
-  gridIndexX: 4
-  gridIndexY: 1
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &360334920
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1640,7 +1433,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1670,6 +1463,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 360334917}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &391421188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 391421189}
+  m_Layer: 0
+  m_Name: Puzzle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &391421189
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391421188}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.3133216, y: 4.881837, z: 214.59659}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 504059591}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &495480506
 GameObject:
   m_ObjectHideFlags: 0
@@ -1732,8 +1556,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 504059590}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5280552, y: -3.564128, z: 21.315414}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.8413768, y: -8.445965, z: -193.28117}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1110140334}
@@ -1743,8 +1567,8 @@ Transform:
   - {fileID: 1937849540}
   - {fileID: 495480507}
   - {fileID: 1382304811}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 391421189}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &525075586
 GameObject:
@@ -1758,7 +1582,6 @@ GameObject:
   - component: {fileID: 525075591}
   - component: {fileID: 525075590}
   - component: {fileID: 525075589}
-  - component: {fileID: 525075588}
   m_Layer: 0
   m_Name: 0-0 (5)
   m_TagString: Untagged
@@ -1780,26 +1603,6 @@ Transform:
   m_Father: {fileID: 495480507}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &525075588
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 525075586}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 2
-  gridIndexX: 0
-  gridIndexY: 5
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &525075589
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1832,7 +1635,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1911,11 +1714,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: -1
   gridIndexX: 3
   gridIndexY: 6
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &562960641
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1990,7 +1794,6 @@ GameObject:
   - component: {fileID: 639391460}
   - component: {fileID: 639391459}
   - component: {fileID: 639391458}
-  - component: {fileID: 639391457}
   m_Layer: 0
   m_Name: 4-0 (4)
   m_TagString: Untagged
@@ -2012,26 +1815,6 @@ Transform:
   m_Father: {fileID: 1937849540}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &639391457
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 639391455}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 4
-  gridIndexX: 4
-  gridIndexY: 4
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &639391458
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2064,7 +1847,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2143,11 +1926,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: -1
   gridIndexX: 5
   gridIndexY: 6
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &674069374
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2210,7 +1994,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 674069371}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &705507993
+--- !u!1 &718388992
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2218,34 +2002,34 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 705507995}
-  - component: {fileID: 705507994}
+  - component: {fileID: 718388994}
+  - component: {fileID: 718388993}
   m_Layer: 0
-  m_Name: Directional Light
+  m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!108 &705507994
+--- !u!108 &718388993
 Light:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 705507993}
+  m_GameObject: {fileID: 718388992}
   m_Enabled: 1
   serializedVersion: 10
-  m_Type: 1
+  m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2278,7 +2062,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2289,20 +2073,20 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!4 &705507995
+--- !u!4 &718388994
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 705507993}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_GameObject: {fileID: 718388992}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.92, y: 3.04, z: -0.95}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &722308184
 GameObject:
   m_ObjectHideFlags: 0
@@ -2352,11 +2136,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: -1
   gridIndexX: 3
   gridIndexY: 0
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &722308187
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2431,7 +2216,6 @@ GameObject:
   - component: {fileID: 737603508}
   - component: {fileID: 737603507}
   - component: {fileID: 737603506}
-  - component: {fileID: 737603505}
   m_Layer: 0
   m_Name: 8-0 (5)
   m_TagString: Untagged
@@ -2453,26 +2237,6 @@ Transform:
   m_Father: {fileID: 495480507}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &737603505
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 737603503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 4
-  gridIndexX: 8
-  gridIndexY: 5
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &737603506
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2505,7 +2269,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2562,13 +2326,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781239111}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 2.4726868, y: 0.5541215, z: -21.256641}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1382304811}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &781239113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2584,11 +2348,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: 20
   gridIndexX: 8
   gridIndexY: 6
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 1
 --- !u!65 &781239114
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2650,7 +2415,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781239111}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &800120668
 GameObject:
   m_ObjectHideFlags: 0
@@ -2700,11 +2465,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: 18
   gridIndexX: 7
   gridIndexY: 5
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &800120671
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2802,11 +2568,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: -1
   gridIndexX: 2
   gridIndexY: 0
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &842648700
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2895,7 +2662,6 @@ GameObject:
   - component: {fileID: 878874772}
   - component: {fileID: 878874771}
   - component: {fileID: 878874770}
-  - component: {fileID: 878874769}
   m_Layer: 0
   m_Name: 6-1
   m_TagString: Untagged
@@ -2917,26 +2683,6 @@ Transform:
   m_Father: {fileID: 1802488377}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &878874769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 878874767}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 4
-  gridIndexX: 6
-  gridIndexY: 1
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &878874770
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2969,7 +2715,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3011,7 +2757,6 @@ GameObject:
   - component: {fileID: 905504398}
   - component: {fileID: 905504397}
   - component: {fileID: 905504396}
-  - component: {fileID: 905504395}
   m_Layer: 0
   m_Name: 6-0 (5)
   m_TagString: Untagged
@@ -3033,26 +2778,6 @@ Transform:
   m_Father: {fileID: 495480507}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &905504395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 905504393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 4
-  gridIndexX: 6
-  gridIndexY: 5
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &905504396
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3085,7 +2810,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3203,11 +2928,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 5
+  orderIndex: 3
   gridIndexX: 1
   gridIndexY: 2
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &953125561
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3282,7 +3008,6 @@ GameObject:
   - component: {fileID: 961656775}
   - component: {fileID: 961656774}
   - component: {fileID: 961656773}
-  - component: {fileID: 961656772}
   m_Layer: 0
   m_Name: 2-2
   m_TagString: Untagged
@@ -3304,26 +3029,6 @@ Transform:
   m_Father: {fileID: 97878179}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &961656772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 961656770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 4
-  gridIndexX: 2
-  gridIndexY: 2
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &961656773
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3356,7 +3061,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3437,7 +3142,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 8
   orthographic: 1
   orthographic size: 4
   m_Depth: -1
@@ -3462,13 +3167,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.2, y: 0, z: -178}
+  m_LocalRotation: {x: 0.029174676, y: -0, z: -0, w: 0.99957436}
+  m_LocalPosition: {x: -1.2, y: 2.69, z: -48.23}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 3.344, y: 0, z: 0}
 --- !u!1 &974440699
 GameObject:
   m_ObjectHideFlags: 0
@@ -3481,7 +3186,6 @@ GameObject:
   - component: {fileID: 974440704}
   - component: {fileID: 974440703}
   - component: {fileID: 974440702}
-  - component: {fileID: 974440701}
   m_Layer: 0
   m_Name: 5-0 (4)
   m_TagString: Untagged
@@ -3503,26 +3207,6 @@ Transform:
   m_Father: {fileID: 1937849540}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &974440701
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 974440699}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 4
-  gridIndexX: 5
-  gridIndexY: 4
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &974440702
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3555,7 +3239,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3634,11 +3318,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: 17
   gridIndexX: 7
   gridIndexY: 4
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &984084703
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3750,11 +3435,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: 12
   gridIndexX: 6
   gridIndexY: 0
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &994365755
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3866,11 +3552,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 5
+  orderIndex: -1
   gridIndexX: 1
   gridIndexY: 4
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &1002547137
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3982,11 +3669,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: -1
   gridIndexX: 3
   gridIndexY: 1
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &1088420416
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4098,11 +3786,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: -1
   gridIndexX: 3
   gridIndexY: 2
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &1099360365
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4214,11 +3903,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: 13
   gridIndexX: 7
   gridIndexY: 0
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &1109267498
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4369,11 +4059,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 5
+  orderIndex: -1
   gridIndexX: 1
   gridIndexY: 5
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &1154067793
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4448,7 +4139,6 @@ GameObject:
   - component: {fileID: 1180097900}
   - component: {fileID: 1180097899}
   - component: {fileID: 1180097898}
-  - component: {fileID: 1180097897}
   m_Layer: 0
   m_Name: 0-0 (6)
   m_TagString: Untagged
@@ -4470,26 +4160,6 @@ Transform:
   m_Father: {fileID: 1382304811}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1180097897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1180097895}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 2
-  gridIndexX: 0
-  gridIndexY: 6
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &1180097898
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4522,7 +4192,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4601,11 +4271,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 5
+  orderIndex: 4
   gridIndexX: 1
   gridIndexY: 3
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &1185428883
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4717,11 +4388,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: -1
   gridIndexX: 4
   gridIndexY: 5
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &1236798837
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4833,11 +4505,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: 9
   gridIndexX: 5
   gridIndexY: 2
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &1263736664
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4912,7 +4585,6 @@ GameObject:
   - component: {fileID: 1347414027}
   - component: {fileID: 1347414026}
   - component: {fileID: 1347414025}
-  - component: {fileID: 1347414024}
   m_Layer: 0
   m_Name: 2-1
   m_TagString: Untagged
@@ -4934,26 +4606,6 @@ Transform:
   m_Father: {fileID: 1802488377}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1347414024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1347414022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 4
-  gridIndexX: 2
-  gridIndexY: 1
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &1347414025
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4986,7 +4638,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5067,7 +4719,6 @@ GameObject:
   - component: {fileID: 1419610333}
   - component: {fileID: 1419610332}
   - component: {fileID: 1419610331}
-  - component: {fileID: 1419610330}
   m_Layer: 0
   m_Name: 1-0
   m_TagString: Untagged
@@ -5075,26 +4726,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1419610330
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1419610329}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 5
-  gridIndexX: 1
-  gridIndexY: 0
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &1419610331
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5127,7 +4758,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5220,11 +4851,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: 5
   gridIndexX: 2
   gridIndexY: 3
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &1432790070
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5336,11 +4968,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: 10
   gridIndexX: 5
   gridIndexY: 1
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &1468723086
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5452,11 +5085,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: 11
   gridIndexX: 5
   gridIndexY: 0
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &1494835765
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5568,11 +5202,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: 14
   gridIndexX: 7
   gridIndexY: 1
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &1515527276
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5684,11 +5319,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 2
+  orderIndex: 1
   gridIndexX: 0
   gridIndexY: 1
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &1557479619
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5763,7 +5399,6 @@ GameObject:
   - component: {fileID: 1567166547}
   - component: {fileID: 1567166546}
   - component: {fileID: 1567166545}
-  - component: {fileID: 1567166544}
   m_Layer: 0
   m_Name: 2-0 (4)
   m_TagString: Untagged
@@ -5785,26 +5420,6 @@ Transform:
   m_Father: {fileID: 1937849540}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1567166544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1567166542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 4
-  gridIndexX: 2
-  gridIndexY: 4
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &1567166545
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5837,7 +5452,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5916,11 +5531,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: 7
   gridIndexX: 4
   gridIndexY: 3
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &1590769873
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5995,7 +5611,6 @@ GameObject:
   - component: {fileID: 1622638238}
   - component: {fileID: 1622638237}
   - component: {fileID: 1622638236}
-  - component: {fileID: 1622638235}
   m_Layer: 0
   m_Name: 8-0 (4)
   m_TagString: Untagged
@@ -6017,26 +5632,6 @@ Transform:
   m_Father: {fileID: 1937849540}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1622638235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1622638233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 4
-  gridIndexX: 8
-  gridIndexY: 4
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &1622638236
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6069,7 +5664,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6111,7 +5706,6 @@ GameObject:
   - component: {fileID: 1656903454}
   - component: {fileID: 1656903453}
   - component: {fileID: 1656903452}
-  - component: {fileID: 1656903451}
   m_Layer: 0
   m_Name: 1-1
   m_TagString: Untagged
@@ -6133,26 +5727,6 @@ Transform:
   m_Father: {fileID: 1802488377}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1656903451
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1656903449}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 5
-  gridIndexX: 1
-  gridIndexY: 1
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &1656903452
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6185,7 +5759,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6215,6 +5789,99 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1656903449}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1698567481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1698567483}
+  - component: {fileID: 1698567482}
+  m_Layer: 0
+  m_Name: Point Light (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1698567482
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698567481}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.12
+  m_Range: 99.33
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 1
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.73
+    m_NormalBias: 0.35
+    m_NearPlane: 8.8
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 0.7
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1698567483
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698567481}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.4, y: 0.51, z: -1.41}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1731091250
 GameObject:
   m_ObjectHideFlags: 0
@@ -6264,11 +5931,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 5
+  orderIndex: -1
   gridIndexX: 1
   gridIndexY: 6
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &1731091253
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6385,6 +6053,7 @@ MonoBehaviour:
   gridIndexY: 2
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &1747655178
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6496,11 +6165,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: 6
   gridIndexX: 3
   gridIndexY: 3
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &1790780750
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6614,7 +6284,6 @@ GameObject:
   - component: {fileID: 1811924003}
   - component: {fileID: 1811924002}
   - component: {fileID: 1811924001}
-  - component: {fileID: 1811924000}
   m_Layer: 0
   m_Name: 8-1
   m_TagString: Untagged
@@ -6636,26 +6305,6 @@ Transform:
   m_Father: {fileID: 1802488377}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1811924000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1811923998}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 4
-  gridIndexX: 8
-  gridIndexY: 1
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &1811924001
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6688,7 +6337,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6730,7 +6379,6 @@ GameObject:
   - component: {fileID: 1823528937}
   - component: {fileID: 1823528936}
   - component: {fileID: 1823528935}
-  - component: {fileID: 1823528934}
   m_Layer: 0
   m_Name: 8-2
   m_TagString: Untagged
@@ -6752,26 +6400,6 @@ Transform:
   m_Father: {fileID: 97878179}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1823528934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1823528932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 4
-  gridIndexX: 8
-  gridIndexY: 2
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &1823528935
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6804,7 +6432,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6846,7 +6474,6 @@ GameObject:
   - component: {fileID: 1832794330}
   - component: {fileID: 1832794329}
   - component: {fileID: 1832794328}
-  - component: {fileID: 1832794327}
   m_Layer: 0
   m_Name: 6-0 (3)
   m_TagString: Untagged
@@ -6868,26 +6495,6 @@ Transform:
   m_Father: {fileID: 937933996}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1832794327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1832794325}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 4
-  gridIndexX: 6
-  gridIndexY: 3
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &1832794328
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6920,7 +6527,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6999,11 +6606,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: -1
   gridIndexX: 5
   gridIndexY: 5
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &1833167121
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7101,7 +6709,16 @@ MonoBehaviour:
   - {fileID: 192675777}
   - {fileID: 192675777}
   - {fileID: 192675777}
-  - {fileID: 1419610330}
+  - {fileID: 0}
+  - {fileID: 192675777}
+  - {fileID: 192675777}
+  - {fileID: 192675777}
+  - {fileID: 192675777}
+  - {fileID: 192675777}
+  - {fileID: 192675777}
+  - {fileID: 192675777}
+  - {fileID: 192675777}
+  - {fileID: 192675777}
   - {fileID: 192675777}
   - {fileID: 192675777}
   - {fileID: 192675777}
@@ -7207,9 +6824,19 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   previousClicked: {fileID: 0}
   lastClicked: {fileID: 0}
   resetGame: 0
+  win: 0
   myIndex: -1
 --- !u!120 &1868843330
 LineRenderer:
@@ -7324,7 +6951,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1903087095
 GameObject:
@@ -7375,11 +7002,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: 16
   gridIndexX: 7
   gridIndexY: 3
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &1903087098
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7493,7 +7121,6 @@ GameObject:
   - component: {fileID: 1965932005}
   - component: {fileID: 1965932004}
   - component: {fileID: 1965932003}
-  - component: {fileID: 1965932002}
   m_Layer: 0
   m_Name: 4-0
   m_TagString: Untagged
@@ -7515,26 +7142,6 @@ Transform:
   m_Father: {fileID: 1110140334}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1965932002
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1965932000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 4
-  gridIndexX: 4
-  gridIndexY: 0
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &1965932003
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7567,7 +7174,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7646,11 +7253,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: 15
   gridIndexX: 7
   gridIndexY: 2
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &1980764218
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7713,6 +7321,99 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1980764215}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2006172565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2006172567}
+  - component: {fileID: 2006172566}
+  m_Layer: 0
+  m_Name: Point Light (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &2006172566
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006172565}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 1
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &2006172567
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006172565}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.05, y: -2.84, z: -1.41}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2048066651
 GameObject:
   m_ObjectHideFlags: 0
@@ -7725,7 +7426,6 @@ GameObject:
   - component: {fileID: 2048066656}
   - component: {fileID: 2048066655}
   - component: {fileID: 2048066654}
-  - component: {fileID: 2048066653}
   m_Layer: 0
   m_Name: 2-0 (5)
   m_TagString: Untagged
@@ -7747,26 +7447,6 @@ Transform:
   m_Father: {fileID: 495480507}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2048066653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2048066651}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 4
-  gridIndexX: 2
-  gridIndexY: 5
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &2048066654
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7799,7 +7479,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7878,11 +7558,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: -1
   gridIndexX: 3
   gridIndexY: 5
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &2072399067
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7994,11 +7675,12 @@ MonoBehaviour:
   buttonState: 0
   lineRenderer: {fileID: 1868843329}
   thisIndex: 0
-  orderIndex: 4
+  orderIndex: 8
   gridIndexX: 5
   gridIndexY: 3
   mouseHold: 0
   mouseOver: 0
+  isFinishButton: 0
 --- !u!65 &2099751352
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8073,7 +7755,6 @@ GameObject:
   - component: {fileID: 2123329580}
   - component: {fileID: 2123329579}
   - component: {fileID: 2123329578}
-  - component: {fileID: 2123329577}
   m_Layer: 0
   m_Name: 6-0 (4)
   m_TagString: Untagged
@@ -8095,26 +7776,6 @@ Transform:
   m_Father: {fileID: 1937849540}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2123329577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2123329575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffcd3e72a44eb164fadf3aa1f2517c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
-  orderIndex: 4
-  gridIndexX: 6
-  gridIndexY: 4
-  mouseHold: 0
-  mouseOver: 0
 --- !u!65 &2123329578
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8147,7 +7808,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f49b308d03a9c094daad98669869fea1, type: 2}
+  - {fileID: 2100000, guid: f6c896c24fcab654a848058d4d845c7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

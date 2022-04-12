@@ -10,6 +10,7 @@ public class LineRendererTest : MonoBehaviour
     public ButtonTest previousClicked;
     public ButtonTest lastClicked;
     public bool resetGame = false;
+    public bool win = false;
 
     public int myIndex = -1;
 
@@ -20,6 +21,8 @@ public class LineRendererTest : MonoBehaviour
         CheckLastButton();
         
         DrawLine();   
+
+        CheckIfWin();
 
         if (resetGame == true)
         {
@@ -85,6 +88,29 @@ public class LineRendererTest : MonoBehaviour
         else
         {
             lastClicked = null;
+        }
+    }
+
+    private void CheckIfWin()
+    {
+        if(myIndex > -1)
+        {
+            if(clickedButtons[myIndex].isFinishButton == true)
+            {
+                for(int i =0; i< myIndex; i++)
+                {
+                    if(clickedButtons[i].orderIndex == -1)
+                    {
+                        resetGame = true;
+                    }
+
+                    else if(clickedButtons[i].orderIndex != clickedButtons[i].thisIndex)
+                    {
+                        resetGame = true;
+                        
+                    }
+                }
+            }
         }
     }
 }

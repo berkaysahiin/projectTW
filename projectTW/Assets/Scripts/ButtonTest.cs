@@ -7,12 +7,13 @@ public class ButtonTest : MonoBehaviour
 {
     public bool buttonState = false;
     public LineRendererTest lineRenderer;
-    public int thisIndex;
+    [HideInInspector] public int thisIndex;
     public int orderIndex;
     public int gridIndexX;
     public int gridIndexY;
-    public bool mouseHold;
-    public bool mouseOver;
+    [HideInInspector] public bool mouseHold;
+    [HideInInspector] public bool mouseOver;
+    public bool isFinishButton = false;
 
 
     private void Update()
@@ -21,13 +22,13 @@ public class ButtonTest : MonoBehaviour
         {
             var renderer = this.GetComponent<Renderer>();
 
-            renderer.material.SetColor("_Color",Color.white);
+            renderer.material.SetColor("_Color",Color.cyan);
         }
         else if(buttonState == false)
         {
             var renderer = this.GetComponent<Renderer>();
 
-            renderer.material.SetColor("_Color",Color.black);
+            renderer.material.SetColor("_Color",Color.grey);
 
             thisIndex = -1;
         }
@@ -41,9 +42,6 @@ public class ButtonTest : MonoBehaviour
         {
             mouseHold = false;
         }
-
-        Debug.Log("mouseHold:" + mouseHold);
-        Debug.Log("mouseOver:" + mouseOver);
     }
     
     private void OnMouseEnter() 
@@ -100,6 +98,15 @@ public class ButtonTest : MonoBehaviour
 
     public bool CheckCanClick()
     {
+        if(lineRenderer.myIndex == -1) // check if it's the first grid.
+        {
+            if(orderIndex != 0)
+            {
+                return false;
+            } 
+        }
+
+
         if(buttonState == true)
         {
             return true;
@@ -162,6 +169,4 @@ public class ButtonTest : MonoBehaviour
             }
         }
     }
-
-
 }
