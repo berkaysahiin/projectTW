@@ -22,7 +22,7 @@ public class ButtonTest : MonoBehaviour
         {
             var renderer = this.GetComponent<Renderer>();
 
-            renderer.material.SetColor("_Color",Color.cyan);
+            renderer.material.SetColor("_Color",Color.red);
         }
         else if(buttonState == false)
         {

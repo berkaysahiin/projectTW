@@ -12,6 +12,8 @@ public class LineRendererTest : MonoBehaviour
     public bool resetGame = false;
     public bool win = false;
 
+    public GameObject lights;
+
     public int myIndex = -1;
 
     private void Update() 
@@ -31,6 +33,17 @@ public class LineRendererTest : MonoBehaviour
         else if(clickedButtons[0] == null)
         {
             ResetGame();
+        }
+
+        Debug.Log(win);
+
+        if(win == true)
+        {
+            lights.SetActive(true);
+        }
+        else if(win == false)
+        {
+            lights.SetActive(false);
         }
         
     }
@@ -102,14 +115,24 @@ public class LineRendererTest : MonoBehaviour
                     if(clickedButtons[i].orderIndex == -1)
                     {
                         resetGame = true;
+                        return;
                     }
 
                     else if(clickedButtons[i].orderIndex != clickedButtons[i].thisIndex)
                     {
                         resetGame = true;
+                        return;
                         
                     }
                 }
+
+                win = true;
+
+                return;
+            }
+            else if(clickedButtons[myIndex].isFinishButton == false)
+            {
+                win = false;
             }
         }
     }
