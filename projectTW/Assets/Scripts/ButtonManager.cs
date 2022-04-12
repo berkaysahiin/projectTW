@@ -9,8 +9,8 @@ public class ButtonManager : MonoBehaviour
     [HideInInspector] public int globalIndex = -1;
     public Button lastClicked;
     public Button[] clickedButtons;
-    public GameObject lights;
     private bool win = false;
+    [SerializeField] LineRenderer _lineRenderer;
     
     private void Update() 
     {
@@ -20,6 +20,8 @@ public class ButtonManager : MonoBehaviour
 
         CheckIfWin();
 
+        DrawLine();
+
         if (resetGame == true)
         {
             ResetGame();    
@@ -27,16 +29,6 @@ public class ButtonManager : MonoBehaviour
         else if(clickedButtons[0] == null)
         {
             ResetGame();
-        }
-
-
-        if(win == true)
-        {
-            lights.SetActive(true);
-        }
-        else if(win == false)
-        {
-            lights.SetActive(false);
         }
         
     }
@@ -112,6 +104,18 @@ public class ButtonManager : MonoBehaviour
             {
                 win = false;
             }
+        }
+    }
+
+    private void DrawLine()
+    {
+        _lineRenderer.positionCount = globalIndex + 1;
+
+        for(int i = 0; i< _lineRenderer.positionCount; i++ )
+        {
+            Vector3 cube = clickedButtons[i].GetComponent<Transform>().position;
+
+            _lineRenderer.SetPosition(i,new Vector3(cube.x,cube.y,-16));
         }
     }
 }

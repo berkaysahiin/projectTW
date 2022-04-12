@@ -24,8 +24,6 @@ public class Button : MonoBehaviour
     {
         IndexOfButtonIfNonClicked();
 
-        ColorOfButton();
-
         CheckMouseHold();
     }
     
