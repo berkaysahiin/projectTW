@@ -16,14 +16,22 @@ public class LineRendererTest : MonoBehaviour
     private void Update() 
     {
         
-
         LineRendererPositionCountManager();
 
         ClickedButtonManager();
 
+        CheckLastButton();
+        
         DrawLine();   
 
-        ResetGame();    
+        if (resetGame == true)
+        {
+            ResetGame();    
+        }
+        else if(clickedButtons[0] == null)
+        {
+            ResetGame();
+        }
         
     }
 
@@ -48,11 +56,6 @@ public class LineRendererTest : MonoBehaviour
             {
                 clickedButtons[myIndex] = previousClicked;
             }
-            
-            if(previousClicked != null) 
-            {
-                lastClicked = previousClicked;
-            }
 
             previousClicked = null;
         }
@@ -60,23 +63,29 @@ public class LineRendererTest : MonoBehaviour
 
     private void ResetGame()
     {
-        if(resetGame == true)
+        resetGame = false;
+
+        myIndex = -1;
+
+        for(int i=0; i<clickedButtons.Length; i++)
         {
-            resetGame = false;
-
-            lastClicked = null;
-
-            myIndex = -1;
-
-            for(int i=0; i<clickedButtons.Length; i++)
+            if(clickedButtons[i] != null)
             {
-                if(clickedButtons[i] != null)
-                {
                     clickedButtons[i].buttonState = false;
                     clickedButtons[i] = null;
-                }
             }
         }
     }
 
+    private void CheckLastButton()
+    {
+        if(myIndex > -1)
+        {
+            lastClicked = clickedButtons[myIndex];
+        }
+        else
+        {
+            lastClicked = null;
+        }
+    }
 }

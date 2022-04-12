@@ -9,6 +9,8 @@ public class ButtonTest : MonoBehaviour
     public LineRendererTest lineRenderer;
     public int thisIndex;
     public int orderIndex;
+    public int gridIndexX;
+    public int gridIndexY;
 
 
     private void Update()
@@ -27,8 +29,15 @@ public class ButtonTest : MonoBehaviour
     
     private void OnMouseDown() 
     {
-        ClickButton();
-        CheckOrder();
+        if(CheckCanClick())
+        {
+             ClickButton();
+
+            //CheckOrder();
+        }
+
+       
+
     }
 
     private void ClickButton()
@@ -69,6 +78,53 @@ public class ButtonTest : MonoBehaviour
                 thisIndex = -1;
             }
         }
-    } 
+    }
+
+    public bool CheckCanClick()
+    {
+        if(buttonState == true)
+        {
+            return true;
+
+        }
+        else
+        {
+            if(lineRenderer.lastClicked == null)
+            {
+                return true;
+            }
+            else
+            {
+                if(Mathf.Abs(lineRenderer.lastClicked.gridIndexY - gridIndexY) == 0)
+                {
+                    if(Mathf.Abs(lineRenderer.lastClicked.gridIndexX - gridIndexX) == 1)
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+
+                else if(Mathf.Abs(lineRenderer.lastClicked.gridIndexY - gridIndexY) == 1)
+                {
+                    if(Mathf.Abs(lineRenderer.lastClicked.gridIndexX - gridIndexX) == 0)
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+
+                else
+                {
+                    return false;
+                }
+            }
+        }
+    }
 
 }
