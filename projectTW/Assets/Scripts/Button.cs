@@ -13,12 +13,14 @@ public class Button : MonoBehaviour
     public int gridIndexY;
     [HideInInspector] public bool mouseHold;
     public bool isFinishButton = false;
+    public bool isCircled = false;
+    
     private void Start()
     {
         buttonManager = FindObjectOfType<ButtonManager>();
     }
 
-    private void Update()
+    void Update()
     {
         IndexOfButtonIfNonClicked();
 
@@ -82,6 +84,11 @@ public class Button : MonoBehaviour
             } 
         }
 
+        if(CheckCanClickEveryTurnGameModeAddition() == false)
+        {
+            return false;
+        }
+
 
         if(buttonState == true)
         {
@@ -138,18 +145,37 @@ public class Button : MonoBehaviour
 
     private void ColorOfButton()
     {
-        if(buttonState == true)
-        {
-            var renderer = this.GetComponent<Renderer>();
+       if(isCircled == false)
+       {
+            if(buttonState == true)
+            {
+                var renderer = this.GetComponent<Renderer>();
 
-            renderer.material.SetColor("_Color",Color.red);
-        }
-        else if(buttonState == false)
-        {
-            var renderer = this.GetComponent<Renderer>();
+                renderer.material.SetColor("_Color",Color.red);
+            }
+            else if(buttonState == false)
+            {
+                var renderer = this.GetComponent<Renderer>();
 
-            renderer.material.SetColor("_Color",Color.grey);
-        }
+                renderer.material.SetColor("_Color",Color.grey);
+            }
+       }
+
+       else
+       {
+           if(buttonState == false)
+            {
+                var renderer = this.GetComponent<Renderer>();
+
+                renderer.material.SetColor("_Color",Color.yellow);
+            }
+            else if(buttonState == true)
+            {
+                var renderer = this.GetComponent<Renderer>();
+
+                renderer.material.SetColor("_Color",Color.green);
+            }
+       }
     }
 
     private void CheckMouseHold()
@@ -163,5 +189,32 @@ public class Button : MonoBehaviour
         {
             mouseHold = false;
         }
+    }
+
+    private bool CheckCanClickEveryTurnGameModeAddition()
+    {
+        if(buttonManager.globalIndex > 0 && buttonState == false)
+        {
+            if(buttonManager.lastClicked.isCircled == true)
+            {
+                if(buttonManager.lastClicked.gridIndexX == buttonManager.clickedButtons[buttonManager.globalIndex -1].gridIndexX)
+                {
+                    if(gridIndexY != buttonManager.lastClicked.gridIndexY)
+                    {
+                        return false;
+                    }
+                }
+
+                else if(buttonManager.lastClicked.gridIndexY == buttonManager.clickedButtons[buttonManager.globalIndex -1].gridIndexY)
+                {
+                    if(gridIndexY == buttonManager.lastClicked.gridIndexY)
+                    {
+                        return false;
+                    }
+                }
+            }
+        }
+
+        return true;
     }
 }
