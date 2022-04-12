@@ -71,8 +71,8 @@ public class LineRendererTest : MonoBehaviour
         {
             if(clickedButtons[i] != null)
             {
-                    clickedButtons[i].buttonState = false;
-                    clickedButtons[i] = null;
+                clickedButtons[i].buttonState = false;
+                clickedButtons[i] = null;
             }
         }
     }

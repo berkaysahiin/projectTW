@@ -17,11 +17,15 @@ public class ButtonTest : MonoBehaviour
     {
         if(buttonState == true)
         {
-            transform.localScale = new Vector3(1,2,1);
+            var renderer = this.GetComponent<Renderer>();
+
+            renderer.material.SetColor("_Color",Color.green);
         }
         else if(buttonState == false)
         {
-            transform.localScale = new Vector3(1,1,1);
+            var renderer = this.GetComponent<Renderer>();
+
+            renderer.material.SetColor("_Color",Color.red);
 
             thisIndex = -1;
         }
