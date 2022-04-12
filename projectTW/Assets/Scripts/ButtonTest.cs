@@ -21,13 +21,13 @@ public class ButtonTest : MonoBehaviour
         {
             var renderer = this.GetComponent<Renderer>();
 
-            renderer.material.SetColor("_Color",Color.green);
+            renderer.material.SetColor("_Color",Color.white);
         }
         else if(buttonState == false)
         {
             var renderer = this.GetComponent<Renderer>();
 
-            renderer.material.SetColor("_Color",Color.red);
+            renderer.material.SetColor("_Color",Color.black);
 
             thisIndex = -1;
         }
