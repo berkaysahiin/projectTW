@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -178,6 +178,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &20551249
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -295,6 +296,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &32562822
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -412,6 +414,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &39155920
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -529,6 +532,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &62159707
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -646,6 +650,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &79422759
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -763,6 +768,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &101271580
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -880,6 +886,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &154024997
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -997,6 +1004,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 1
 --- !u!65 &168707991
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1114,6 +1122,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 1
 --- !u!65 &171634789
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1231,6 +1240,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &174797171
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1348,6 +1358,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &191499385
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1527,6 +1538,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!1 &208072719
 GameObject:
   m_ObjectHideFlags: 0
@@ -1582,6 +1594,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &208072722
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1699,6 +1712,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &214290888
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1816,6 +1830,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &234188676
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1933,6 +1948,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &241558186
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2050,6 +2066,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &244458961
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2167,6 +2184,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &270516260
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2284,6 +2302,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &276874749
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2401,6 +2420,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &278469332
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2518,6 +2538,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &293317228
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2635,6 +2656,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &318255686
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2752,6 +2774,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &325385049
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2869,6 +2892,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &339992176
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2986,6 +3010,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &340624173
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3103,6 +3128,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &340977352
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3220,6 +3246,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &385449795
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3337,6 +3364,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &393210654
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3454,6 +3482,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &395764716
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3571,6 +3600,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &401388635
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3688,6 +3718,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &432409893
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3805,6 +3836,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &436858089
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3922,6 +3954,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &447742335
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4039,6 +4072,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &453874986
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4156,6 +4190,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &455459247
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4273,6 +4308,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &482156076
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4390,6 +4426,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &491102687
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4507,6 +4544,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &505806037
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4624,6 +4662,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &511105103
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4741,6 +4780,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &516514422
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4858,6 +4898,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &532040394
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4975,6 +5016,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &545904339
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5092,6 +5134,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &562457005
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5209,6 +5252,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &567993221
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5326,6 +5370,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &596254721
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5443,6 +5488,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &615049738
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5560,6 +5606,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &615261506
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5677,6 +5724,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &621252215
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5739,6 +5787,99 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 621252212}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &622873400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 622873402}
+  - component: {fileID: 622873401}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &622873401
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622873400}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 0.9339623, g: 0.7885814, b: 0.9126122, a: 1}
+  m_Intensity: 0.3
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &622873402
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622873400}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: -4.3676033, y: -9.661158, z: 32.53947}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &630879241
 GameObject:
   m_ObjectHideFlags: 0
@@ -5794,6 +5935,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &630879244
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5911,6 +6053,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &651028228
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6028,6 +6171,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 1
 --- !u!65 &659156394
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6145,6 +6289,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &668920204
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6262,6 +6407,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &677216144
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6379,6 +6525,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &696592763
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6496,6 +6643,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &716617514
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6613,6 +6761,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &722308187
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6730,6 +6879,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &727130662
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6847,6 +6997,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &735398577
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6964,6 +7115,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 1
 --- !u!65 &736451064
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7081,6 +7233,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &737176120
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7198,6 +7351,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &744133286
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7315,6 +7469,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &745441811
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7432,6 +7587,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &762455512
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7549,6 +7705,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &763688538
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7666,6 +7823,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &776266862
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7783,6 +7941,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &782210912
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7900,6 +8059,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &793624869
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8017,6 +8177,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &796991953
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8134,6 +8295,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &812481549
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8251,6 +8413,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &841406164
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8354,6 +8517,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &842648700
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8485,6 +8649,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &854139746
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8602,6 +8767,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &857499644
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8719,6 +8885,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &874711676
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8836,6 +9003,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &876087719
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8953,6 +9121,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &876980486
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9070,6 +9239,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &880894425
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9187,6 +9357,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &882008051
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9304,6 +9475,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &882871885
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9456,11 +9628,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 895364068}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: -0.11, y: -2.01, z: 0.9}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalPosition: {x: 2.1, y: 19, z: 0.9}
+  m_LocalScale: {x: 1.42, y: 1, z: 1.6}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 180}
 --- !u!1 &899830986
 GameObject:
@@ -9517,6 +9689,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &899830989
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9634,6 +9807,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &934432311
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9751,6 +9925,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &944086770
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9868,6 +10043,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &948560447
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9985,6 +10161,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &949101599
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10102,6 +10279,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &949840322
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10219,6 +10397,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &953981785
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10317,7 +10496,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.37286404, g: 0.43549013, b: 0.46226418, a: 0}
+  m_BackGroundColor: {r: 0.68523186, g: 0.3135903, b: 0.764151, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -10334,7 +10513,7 @@ Camera:
   far clip plane: 1000
   field of view: 8
   orthographic: 1
-  orthographic size: 14.95
+  orthographic size: 10.43
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -10358,7 +10537,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.029174676, y: -0, z: -0, w: 0.99957436}
-  m_LocalPosition: {x: -1.06, y: 2.5, z: -26.8}
+  m_LocalPosition: {x: 3.22, y: 19.97, z: -25.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -10419,6 +10598,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &986642019
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10536,6 +10716,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &994365755
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10653,6 +10834,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &998625439
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10770,6 +10952,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1008924639
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10887,6 +11070,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1027599531
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11004,6 +11188,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1030638353
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11121,6 +11306,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1038099141
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11238,6 +11424,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1060103304
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11355,6 +11542,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1066408645
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11472,6 +11660,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1075117226
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11589,6 +11778,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1079656516
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11706,6 +11896,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1082647999
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11823,6 +12014,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1104951512
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11940,6 +12132,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1104966216
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12057,6 +12250,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1109267498
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12174,6 +12368,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1114160524
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12291,6 +12486,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1142787567
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12408,6 +12604,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1150388338
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12525,6 +12722,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1153077830
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12642,6 +12840,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1153231644
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12759,6 +12958,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1167528213
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12876,6 +13076,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1169822128
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12993,6 +13194,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1172090881
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13110,6 +13312,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1176729563
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13172,85 +13375,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1176729560}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1205823432
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1205823433}
-  - component: {fileID: 1205823435}
-  - component: {fileID: 1205823434}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1205823433
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1205823432}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
-  m_Children: []
-  m_Father: {fileID: 1998837948}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -375, y: 367}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1205823434
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1205823432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Start Here
---- !u!222 &1205823435
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1205823432}
-  m_CullTransparentMesh: 1
 --- !u!1 &1216537880
 GameObject:
   m_ObjectHideFlags: 0
@@ -13306,6 +13430,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1216537883
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13423,6 +13548,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1251728461
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13540,6 +13666,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1252075708
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13657,6 +13784,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1261449281
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13774,6 +13902,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1286625973
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13891,6 +14020,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1289382994
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14008,6 +14138,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1301454279
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14125,6 +14256,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 1
 --- !u!65 &1346712866
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14242,6 +14374,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1354849533
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14359,6 +14492,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1369830663
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14476,6 +14610,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1408355412
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14593,6 +14728,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1410792713
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14710,6 +14846,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1413630394
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14813,6 +14950,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1419610331
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14944,6 +15082,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1432953921
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15061,6 +15200,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1469678705
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15178,6 +15318,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1477937668
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15295,6 +15436,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1478196476
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15412,6 +15554,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1494779022
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15529,6 +15672,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1494835765
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15646,6 +15790,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1512211507
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15763,6 +15908,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1512286645
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15880,6 +16026,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 1
 --- !u!65 &1528441921
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15997,6 +16144,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1531985167
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16114,6 +16262,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1545841364
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16231,6 +16380,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1580483585
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16375,7 +16525,7 @@ LineRenderer:
     colorGradient:
       serializedVersion: 2
       key0: {r: 0.086240634, g: 0.95377463, b: 0.9622642, a: 1}
-      key1: {r: 0.9245283, g: 0, b: 0, a: 1}
+      key1: {r: 0.098039225, g: 0.94117653, b: 0.9490197, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -16421,7 +16571,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1620265162
 GameObject:
@@ -16478,6 +16628,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1620265165
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16595,6 +16746,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1640761446
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16712,6 +16864,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1646556530
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16829,6 +16982,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 1
 --- !u!65 &1682031181
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16946,6 +17100,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1686334095
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17063,6 +17218,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1687900684
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17180,6 +17336,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1690189267
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17297,6 +17454,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1694122560
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17414,6 +17572,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1723477562
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17531,6 +17690,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1724336051
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17648,6 +17808,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1729183912
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17765,6 +17926,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 1
 --- !u!65 &1757977892
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17882,6 +18044,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1761957312
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17999,6 +18162,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1765496454
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18116,6 +18280,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1789735023
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18233,6 +18398,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1792449691
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18350,6 +18516,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1815167618
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18467,6 +18634,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1818464059
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18584,6 +18752,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 1
 --- !u!65 &1822963495
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18701,6 +18870,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1837412578
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19049,6 +19219,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1871239909
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19166,6 +19337,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1875832196
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19283,6 +19455,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 1
 --- !u!65 &1878817344
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19400,6 +19573,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1893923883
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19517,6 +19691,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1904894781
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19603,7 +19778,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1906590328}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.07187, y: -9.244894, z: -93.53675}
+  m_LocalPosition: {x: 20.07187, y: 12.33, z: -93.53675}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 192675776}
@@ -19789,7 +19964,7 @@ Transform:
   - {fileID: 1646556528}
   - {fileID: 1792449689}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1942232987
 GameObject:
@@ -19846,6 +20021,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1942232990
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19963,6 +20139,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1949567000
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20080,6 +20257,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 1
 --- !u!65 &1965932003
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20197,6 +20375,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1969406470
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20314,6 +20493,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1973906127
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20431,6 +20611,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1974244569
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20548,6 +20729,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 1
 --- !u!65 &1987783207
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20610,106 +20792,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1987783204}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1998837944
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1998837948}
-  - component: {fileID: 1998837947}
-  - component: {fileID: 1998837946}
-  - component: {fileID: 1998837945}
-  m_Layer: 5
-  m_Name: Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1998837945
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1998837944}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &1998837946
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1998837944}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
---- !u!223 &1998837947
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1998837944}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &1998837948
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1998837944}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_Children:
-  - {fileID: 1205823433}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
 --- !u!1 &1999428582
 GameObject:
   m_ObjectHideFlags: 0
@@ -20765,6 +20847,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &1999428585
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20882,6 +20965,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &2023521190
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20999,6 +21083,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &2029629743
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21116,6 +21201,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &2039901899
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21233,6 +21319,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &2039963821
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21350,6 +21437,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &2041065986
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21467,6 +21555,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 1
 --- !u!65 &2046793584
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21584,6 +21673,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 1
 --- !u!65 &2047483998
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21701,6 +21791,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 1
 --- !u!65 &2051995290
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21818,6 +21909,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &2076834085
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21935,6 +22027,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 1
 --- !u!65 &2081215764
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22052,6 +22145,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &2094410974
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22169,6 +22263,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &2099940007
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22286,6 +22381,7 @@ MonoBehaviour:
   mouseHold: 0
   isFinishButton: 0
   isCircled: 0
+  isWall: 0
 --- !u!65 &2145558490
 BoxCollider:
   m_ObjectHideFlags: 0

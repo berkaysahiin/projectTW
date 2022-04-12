@@ -14,6 +14,7 @@ public class Button : MonoBehaviour
     [HideInInspector] public bool mouseHold;
     public bool isFinishButton = false;
     public bool isCircled = false;
+    public bool isWall;
     
     private void Start()
     {
@@ -25,6 +26,8 @@ public class Button : MonoBehaviour
         IndexOfButtonIfNonClicked();
 
         CheckMouseHold();
+        
+        WallColorManager();
     }
     
     private void OnMouseEnter() 
@@ -86,7 +89,11 @@ public class Button : MonoBehaviour
         {
             return false;
         }
-
+        
+        if(CheckCanClickWallAddition() == false)
+        {
+            return false;
+        }
 
         if(buttonState == true)
         {
@@ -214,5 +221,26 @@ public class Button : MonoBehaviour
         }
 
         return true;
+    }
+
+    private void WallColorManager()
+    {
+        if(isWall == true)
+        {
+            var renderer = this.GetComponent<Renderer>();
+            renderer.material.SetColor("_Color",Color.black);
+        }
+    }
+
+    private bool CheckCanClickWallAddition()
+    {
+        if(isWall == true)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
     }
 }
