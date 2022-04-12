@@ -494,13 +494,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: 19
   gridIndexX: 7
   gridIndexY: 6
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &174144662
 BoxCollider:
@@ -673,13 +672,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: 0
   gridIndexX: 0
   gridIndexY: 0
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!1 &241114025
 GameObject:
@@ -918,13 +916,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: -1
   gridIndexX: 2
   gridIndexY: 6
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &247370912
 BoxCollider:
@@ -1712,13 +1709,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: -1
   gridIndexX: 3
   gridIndexY: 6
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &562960641
 BoxCollider:
@@ -1924,13 +1920,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: -1
   gridIndexX: 5
   gridIndexY: 6
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &674069374
 BoxCollider:
@@ -2134,13 +2129,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: -1
   gridIndexX: 3
   gridIndexY: 0
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &722308187
 BoxCollider:
@@ -2346,13 +2340,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: 20
   gridIndexX: 8
   gridIndexY: 6
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 1
 --- !u!65 &781239114
 BoxCollider:
@@ -2463,13 +2456,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: 18
   gridIndexX: 7
   gridIndexY: 5
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &800120671
 BoxCollider:
@@ -2566,13 +2558,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: -1
   gridIndexX: 2
   gridIndexY: 0
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &842648700
 BoxCollider:
@@ -2926,13 +2917,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: 3
   gridIndexX: 1
   gridIndexY: 2
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &953125561
 BoxCollider:
@@ -3316,13 +3306,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: 17
   gridIndexX: 7
   gridIndexY: 4
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &984084703
 BoxCollider:
@@ -3433,13 +3422,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: 12
   gridIndexX: 6
   gridIndexY: 0
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &994365755
 BoxCollider:
@@ -3550,13 +3538,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: -1
   gridIndexX: 1
   gridIndexY: 4
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &1002547137
 BoxCollider:
@@ -3667,13 +3654,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: -1
   gridIndexX: 3
   gridIndexY: 1
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &1088420416
 BoxCollider:
@@ -3784,13 +3770,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: -1
   gridIndexX: 3
   gridIndexY: 2
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &1099360365
 BoxCollider:
@@ -3901,13 +3886,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: 13
   gridIndexX: 7
   gridIndexY: 0
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &1109267498
 BoxCollider:
@@ -4057,13 +4041,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: -1
   gridIndexX: 1
   gridIndexY: 5
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &1154067793
 BoxCollider:
@@ -4269,13 +4252,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: 4
   gridIndexX: 1
   gridIndexY: 3
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &1185428883
 BoxCollider:
@@ -4418,13 +4400,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: -1
   gridIndexX: 4
   gridIndexY: 5
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &1236798837
 BoxCollider:
@@ -4535,13 +4516,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: 9
   gridIndexX: 5
   gridIndexY: 2
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &1263736664
 BoxCollider:
@@ -4881,13 +4861,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: 5
   gridIndexX: 2
   gridIndexY: 3
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &1432790070
 BoxCollider:
@@ -4998,13 +4977,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: 10
   gridIndexX: 5
   gridIndexY: 1
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &1468723086
 BoxCollider:
@@ -5115,13 +5093,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: 11
   gridIndexX: 5
   gridIndexY: 0
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &1494835765
 BoxCollider:
@@ -5325,13 +5302,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: 14
   gridIndexX: 7
   gridIndexY: 1
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &1515527276
 BoxCollider:
@@ -5442,13 +5418,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: 1
   gridIndexX: 0
   gridIndexY: 1
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &1557479619
 BoxCollider:
@@ -5654,13 +5629,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: 7
   gridIndexX: 4
   gridIndexY: 3
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &1590769873
 BoxCollider:
@@ -5961,13 +5935,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: -1
   gridIndexX: 1
   gridIndexY: 6
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &1731091253
 BoxCollider:
@@ -6078,13 +6051,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: 2
   gridIndexX: 0
   gridIndexY: 2
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &1747655178
 BoxCollider:
@@ -6195,13 +6167,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: 6
   gridIndexX: 3
   gridIndexY: 3
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &1790780750
 BoxCollider:
@@ -6636,13 +6607,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: -1
   gridIndexX: 5
   gridIndexY: 5
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &1833167121
 BoxCollider:
@@ -6715,10 +6685,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1868843331}
-  - component: {fileID: 1868843330}
   - component: {fileID: 1868843329}
   m_Layer: 0
-  m_Name: LineRenderer
+  m_Name: ButtonManagar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6736,71 +6705,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7b24e7b0bfad954ca7cd050b244e7f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lineRenderer: {fileID: 1868843330}
-  buttons:
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 0}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
-  - {fileID: 192675777}
+  previousClicked: {fileID: 0}
+  resetGame: 0
+  globalIndex: -1
+  lastClicked: {fileID: 0}
   clickedButtons:
   - {fileID: 0}
   - {fileID: 0}
@@ -6865,113 +6773,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  previousClicked: {fileID: 0}
-  lastClicked: {fileID: 0}
-  resetGame: 0
-  win: 0
   lights: {fileID: 1219267401}
-  myIndex: -1
---- !u!120 &1868843330
-LineRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1868843328}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 0
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 2575b7d7c1d5b344a98b1dc79940fbed, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Positions:
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  m_Parameters:
-    serializedVersion: 3
-    widthMultiplier: 1
-    widthCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0.016727448
-        value: 0.15714455
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    colorGradient:
-      serializedVersion: 2
-      key0: {r: 0, g: 0, b: 0, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
-      key2: {r: 0, g: 0, b: 0, a: 0}
-      key3: {r: 0, g: 0, b: 0, a: 0}
-      key4: {r: 0, g: 0, b: 0, a: 0}
-      key5: {r: 0, g: 0, b: 0, a: 0}
-      key6: {r: 0, g: 0, b: 0, a: 0}
-      key7: {r: 0, g: 0, b: 0, a: 0}
-      ctime0: 0
-      ctime1: 65535
-      ctime2: 0
-      ctime3: 0
-      ctime4: 0
-      ctime5: 0
-      ctime6: 0
-      ctime7: 0
-      atime0: 0
-      atime1: 65535
-      atime2: 0
-      atime3: 0
-      atime4: 0
-      atime5: 0
-      atime6: 0
-      atime7: 0
-      m_Mode: 0
-      m_NumColorKeys: 2
-      m_NumAlphaKeys: 2
-    numCornerVertices: 0
-    numCapVertices: 0
-    alignment: 0
-    textureMode: 0
-    shadowBias: 0.5
-    generateLightingData: 0
-  m_UseWorldSpace: 1
-  m_Loop: 0
 --- !u!4 &1868843331
 Transform:
   m_ObjectHideFlags: 0
@@ -7033,13 +6835,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: 16
   gridIndexX: 7
   gridIndexY: 3
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &1903087098
 BoxCollider:
@@ -7284,13 +7085,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: 15
   gridIndexX: 7
   gridIndexY: 2
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &1980764218
 BoxCollider:
@@ -7589,13 +7389,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: -1
   gridIndexX: 3
   gridIndexY: 5
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &2072399067
 BoxCollider:
@@ -7706,13 +7505,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonState: 0
-  lineRenderer: {fileID: 1868843329}
-  thisIndex: 0
+  buttonManager: {fileID: 0}
+  currentIndex: 0
   orderIndex: 8
   gridIndexX: 5
   gridIndexY: 3
   mouseHold: 0
-  mouseOver: 0
   isFinishButton: 0
 --- !u!65 &2099751352
 BoxCollider:
