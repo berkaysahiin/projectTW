@@ -15,9 +15,6 @@ public class LineRendererTest : MonoBehaviour
 
     private void Update() 
     {
-        
-        LineRendererPositionCountManager();
-
         ClickedButtonManager();
 
         CheckLastButton();
@@ -35,14 +32,16 @@ public class LineRendererTest : MonoBehaviour
         
     }
 
-    private void LineRendererPositionCountManager()
+    private int LineRendererPositionCount()
     {
         lineRenderer.positionCount = myIndex + 1;
+
+        return lineRenderer.positionCount;
     }
 
     private void DrawLine()
     {
-        for(int i=0; i<lineRenderer.positionCount; i++)
+        for(int i=0; i< LineRendererPositionCount(); i++)
         {
             lineRenderer.SetPosition(i, clickedButtons[i].GetComponentInParent<Transform>().position);
         }  

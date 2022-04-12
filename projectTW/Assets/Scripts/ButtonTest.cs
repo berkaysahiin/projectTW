@@ -11,6 +11,8 @@ public class ButtonTest : MonoBehaviour
     public int orderIndex;
     public int gridIndexX;
     public int gridIndexY;
+    public bool mouseHold;
+    public bool mouseOver;
 
 
     private void Update()
@@ -29,19 +31,45 @@ public class ButtonTest : MonoBehaviour
 
             thisIndex = -1;
         }
-    }
-    
-    private void OnMouseDown() 
-    {
-        if(CheckCanClick())
-        {
-             ClickButton();
 
-            //CheckOrder();
+        if(Input.GetMouseButtonDown(0))
+        {
+            mouseHold = true;
         }
 
-       
+        if(Input.GetMouseButtonUp(0))
+        {
+            mouseHold = false;
+        }
 
+        Debug.Log("mouseHold:" + mouseHold);
+        Debug.Log("mouseOver:" + mouseOver);
+    }
+    
+    private void OnMouseEnter() 
+    {
+        if(mouseHold)
+        {
+            if(CheckCanClick())
+            {
+                ClickButton();
+            }
+        }
+    }
+
+    private void OnMouseExit()
+    {
+        
+    }
+
+    private void OnMouseDown()
+    {
+        
+        if(CheckCanClick())
+        {
+            ClickButton();
+        }
+        
     }
 
     private void ClickButton()
@@ -58,31 +86,17 @@ public class ButtonTest : MonoBehaviour
         } 
         else if(buttonState == true)
         {
-            lineRenderer.clickedButtons[lineRenderer.myIndex].buttonState = false;
 
-            lineRenderer.clickedButtons[lineRenderer.myIndex] = null;
+            if(lineRenderer.myIndex == thisIndex)
+            {
+                lineRenderer.clickedButtons[lineRenderer.myIndex].buttonState = false;
 
-            lineRenderer.myIndex -= 1;
+                lineRenderer.clickedButtons[lineRenderer.myIndex] = null;
+
+                lineRenderer.myIndex -= 1;
+            }
         }
     } 
-
-    public void CheckOrder()
-    {
-        if(thisIndex > -1)
-        {
-            if(orderIndex == thisIndex)
-            {
-                Debug.Log("true");
-            }
-            else
-            {
-                Debug.Log("false");
-                // reset game
-                lineRenderer.resetGame = true;
-                thisIndex = -1;
-            }
-        }
-    }
 
     public bool CheckCanClick()
     {
@@ -130,5 +144,24 @@ public class ButtonTest : MonoBehaviour
             }
         }
     }
+
+     public void CheckOrder()
+    {
+        if(thisIndex > -1)
+        {
+            if(orderIndex == thisIndex)
+            {
+                Debug.Log("true");
+            }
+            else
+            {
+                Debug.Log("false");
+                // reset game
+                lineRenderer.resetGame = true;
+                thisIndex = -1;
+            }
+        }
+    }
+
 
 }
