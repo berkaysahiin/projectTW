@@ -34,18 +34,7 @@ public class ButtonManager : MonoBehaviour
 
         DrawLine();
 
-        if(globalIndex > 2 && lastClicked.isFinishButton == true)
-        {
-            if(CheckIfWin() == false)
-            {
-                ResetGame();
-            }
-            else
-            {
-                Debug.Log("you won");
-            }
-        }
-        
+        Debug.Log("Win status: " + CheckIfWin());
     }
 
     private void PreviousClickedToClickedButtons()
@@ -63,17 +52,7 @@ public class ButtonManager : MonoBehaviour
 
     private void ResetGame()
     {
-        lastClicked.isFinishButton = false;
-
-        lastClicked.isStartButton = true;
-
-       for(int i=1 ; i < globalIndex; i++ )
-       {
-           clickedButtons[i].buttonState = false;
-           clickedButtons[i] = null;
-       }
-
-       globalIndex = 0;
+        
     }
 
     private void LastClickedButton()
@@ -90,22 +69,36 @@ public class ButtonManager : MonoBehaviour
 
     private bool CheckIfWin()
     {
+        if(CheckIfLoopIsCompleted() == true)
+        {
             foreach(Button button in allButtons)
             {
-                if(button.orderIndex == -1 && button.buttonState == true && button.isFinishButton == false)
+                if(button.isStartButton == false)
                 {
-                    return false;
-                }
-                else if(button.orderIndex > -1 && button.buttonState == false && button.isFinishButton == false)
-                {
-                    return false;
-                }
-                else if(button.orderIndex > -1 && button.buttonState == true && button.orderIndex != button.currentIndex && button.isFinishButton == false)
-                {
-                    return false;
+                    if(button.orderIndex == -1 && button.currentIndex > -1)
+                    {
+                        return false;
+                    }
+
+                    else if(button.orderIndex > -1 && button.currentIndex == -1)
+                    {   
+                        return false;
+                    }
+
+                    else if(button.orderIndex > -1 && button.orderIndex > -1 && button.orderIndex != button.currentIndex )
+                    {
+                        return false;
+                    }
                 }
             }
+
             return true;
+        }
+        else
+        {
+            return false;
+        }
+
     }
 
     private void DrawLine()
@@ -126,7 +119,20 @@ public class ButtonManager : MonoBehaviour
     {
         if(globalIndex > 2)
         {
-            _lineRenderer.loop = lastClicked.isFinishButton;
+            _lineRenderer.loop = lastClicked.isStartButton;
+        }
+    }
+
+    private bool CheckIfLoopIsCompleted()
+    {
+        if(globalIndex >= 3 && lastClicked.isStartButton == true )
+        {
+            Debug.Log("loop is over");
+            return true;
+        }
+        else
+        {
+            return false;
         }
     }
 }

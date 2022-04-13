@@ -11,9 +11,8 @@ public class Button : MonoBehaviour
     [HideInInspector] public bool mouseHoldLeftClick;
     public bool buttonState = false;
     public bool isStartButton = false;
-    public bool isFinishButton = false;
     public bool isCircled = false;
-    public bool isWall;
+    public bool isWall = false;
 
     public int currentIndex = -1;
     public int gridIndexX;
@@ -64,6 +63,7 @@ public class Button : MonoBehaviour
 
     private void ClickButton()
     {
+
         if(buttonState == false)
         {
             buttonState = true;
@@ -90,12 +90,12 @@ public class Button : MonoBehaviour
 
     public bool CheckCanClickMath()
     {
-        if(CheckCanClickWallAddition() == false)
+        if(CheckCanClickFirstButtonAddition() == false)
         {
             return false;
         }
 
-        if(isStartButton == true)
+        if(CheckCanClickWallAddition() == false)
         {
             return false;
         }
@@ -299,31 +299,22 @@ public class Button : MonoBehaviour
         }
     }
 
-
-    private bool StartButtonHandler()
+    private bool CheckCanClickFirstButtonAddition()
     {
         if(isStartButton == true)
         {
-            if(buttonManager.globalIndex >= 3)
+            if(buttonManager.globalIndex < 3)
             {
-                buttonManager.globalIndex += 1;
-
-                buttonManager.clickedButtons[buttonManager.globalIndex] = gameObject.GetComponent<Button>();
-
-                isStartButton = false;
-
-                isFinishButton = true;
-                
-                return true;
+                return false;
             }
             else
             {
-                return false;
+                return true;
             }
         }
         else
         {
-            return false;
+            return true;
         }
     }
 }
