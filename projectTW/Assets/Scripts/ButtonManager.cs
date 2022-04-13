@@ -109,7 +109,7 @@ public class ButtonManager : MonoBehaviour
         {
             Vector3 cube = clickedButtons[i].GetComponent<Transform>().position;
 
-            _lineRenderer.SetPosition(i,new Vector3(cube.x,cube.y,-16));
+            _lineRenderer.SetPosition(i,new Vector3(cube.x,cube.y, 6.5f));
         }
 
         LineRendererEnableLoop();

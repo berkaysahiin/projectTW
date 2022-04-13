@@ -10,10 +10,6 @@ public class MouseLook : MonoBehaviour
     [SerializeField] private Transform playerBody;
     [SerializeField] private float xRotation;
 
-    public Texture2D cursorTexture;
-    public CursorMode cursorMode = CursorMode.Auto;
-    public Vector2 hotSpot = Vector2.zero;
-
     private void Start()
     {
         
@@ -22,7 +18,7 @@ public class MouseLook : MonoBehaviour
     
     void Update()
     {
-        Cursor.SetCursor(cursorTexture,hotSpot,cursorMode);
+        
 
         float mouseX = Input.GetAxis("Mouse X") * Time.deltaTime * mounseSensivty;
         float mouseY = Input.GetAxis("Mouse Y") * Time.deltaTime * mounseSensivty;
