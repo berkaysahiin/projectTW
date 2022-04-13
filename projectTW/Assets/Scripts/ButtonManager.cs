@@ -9,18 +9,35 @@ public class ButtonManager : MonoBehaviour
     [HideInInspector] public int globalIndex = -1;
     public Button lastClicked;
     public Button[] clickedButtons;
-    private bool win = false;
+    public Button[] allButtons;
     [SerializeField] LineRenderer _lineRenderer;
     
+    private void Start()
+    {
+        allButtons = this.gameObject.GetComponentsInChildren<Button>();
+
+        clickedButtons = new Button[allButtons.Length];
+
+        foreach(Button button in allButtons)
+        {
+            if(button.isStartButton == true)
+            {
+                clickedButtons[0] = button;
+                globalIndex += 1;
+            }
+        }
+    }
     private void Update() 
     {
         PreviousClickedToClickedButtons();
 
         LastClickedButton();
 
-        CheckIfWin();
+        Debug.Log("Win Status: " +CheckIfWin());
 
         DrawLine();
+
+        LineRendererEnableLoop();
 
         if (resetGame == true)
         {
@@ -74,37 +91,30 @@ public class ButtonManager : MonoBehaviour
         }
     }
 
-    private void CheckIfWin()
+    private bool CheckIfWin()
     {
-        if(globalIndex > -1)
+        if(globalIndex > -1 && lastClicked.isFinishButton == true)
         {
-            if(clickedButtons[globalIndex].isFinishButton == true)
+            foreach(Button button in allButtons)
             {
-                for(int i =0; i< globalIndex; i++)
+                if(button.orderIndex == -1 && button.buttonState == true)
                 {
-                    if(clickedButtons[i].orderIndex == -1)
-                    {
-                        resetGame = true;
-                        return;
-                    }
-
-                    else if(clickedButtons[i].orderIndex != clickedButtons[i].currentIndex)
-                    {
-                        resetGame = true;
-                        return;
-                        
-                    }
+                    return false;
                 }
-
-                win = true;
-
-                return;
+                else if(button.orderIndex > -1 && button.buttonState == false)
+                {
+                    return false;
+                }
+                else if(button.orderIndex > -1 && button.buttonState == true && button.orderIndex != button.currentIndex)
+                {
+                    return false;
+                }
             }
-            else if(clickedButtons[globalIndex].isFinishButton == false)
-            {
-                win = false;
-            }
+
+            return true;
         }
+
+        return false;
     }
 
     private void DrawLine()
@@ -116,6 +126,14 @@ public class ButtonManager : MonoBehaviour
             Vector3 cube = clickedButtons[i].GetComponent<Transform>().position;
 
             _lineRenderer.SetPosition(i,new Vector3(cube.x,cube.y,-16));
+        }
+    }
+
+    private void LineRendererEnableLoop()
+    {
+        if(globalIndex > -1)
+        {
+            _lineRenderer.loop = lastClicked.isFinishButton;
         }
     }
 }

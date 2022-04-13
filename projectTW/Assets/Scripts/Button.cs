@@ -5,48 +5,65 @@ using UnityEngine.Events;
 
 public class Button : MonoBehaviour
 {
-    public bool buttonState = false;
     public ButtonManager buttonManager;
-    [HideInInspector] public int currentIndex;
-    public int orderIndex;
-    public int gridIndexX;
-    public int gridIndexY;
-    [HideInInspector] public bool mouseHold;
+
+    [HideInInspector] public bool mouseHoldRightClick;
+    [HideInInspector] public bool mouseHoldLeftClick;
+    public bool buttonState = false;
+    public bool isStartButton = false;
     public bool isFinishButton = false;
     public bool isCircled = false;
     public bool isWall;
     
+    public int currentIndex = -1;
+    public int gridIndexX;
+    public int gridIndexY;
+    public int orderIndex = -1;
+    
+    
     private void Start()
     {
         buttonManager = FindObjectOfType<ButtonManager>();
+
+        
     }
 
     void Update()
     {
+        mouseHoldLeftClick = Input.GetMouseButton(0);
+        mouseHoldRightClick = Input.GetMouseButton(1);
+
         IndexOfButtonIfNonClicked();
 
         CheckMouseHold();
         
         WallColorManager();
+
+        CircleColorManager();
+
+        CircleAndWallAtTheSameTimeController();
+
+        StartAndFinishButtonColorManager();
+
+        Debug.Log(CheckCanClickLeftRightClickAddition());
+        
     }
     
     private void OnMouseEnter() 
     {
-        if(mouseHold == true)
-        {
-            if(CheckCanClick() == true)
-            {
-                ClickButton();
-            }
-        }
-    }
-
-    private void OnMouseDown()
-    {
-        if(CheckCanClick() == true)
+        if(CheckCanClick() && CheckMouseHold())
         {
             ClickButton();
         }
+    }
+
+    private void OnMouseOver()
+    {
+        if( CheckCanClick() && CheckCanClickLeftRightClickAddition())
+        {
+            ClickButton();
+        }
+            
     }
 
     private void ClickButton()
@@ -77,23 +94,23 @@ public class Button : MonoBehaviour
 
     public bool CheckCanClick()
     {
-        if(buttonManager.globalIndex == -1) // check if it's the first grid.
-        {
-            if(orderIndex != 0)
-            {
-                return false;
-            } 
-        }
 
-        if(CheckCanClickEveryTurnGameModeAddition() == false)
-        {
-            return false;
-        }
-        
         if(CheckCanClickWallAddition() == false)
         {
             return false;
         }
+
+        if(isStartButton == true)
+        {
+            return false;
+        }
+
+        if(CheckCanClickCircleAddition() == false)
+        {
+            return false;
+        }
+        
+        
 
         if(buttonState == true)
         {
@@ -147,56 +164,42 @@ public class Button : MonoBehaviour
             currentIndex = -1;
         }
     }
-
-    private void ColorOfButton()
+    private bool CheckMouseHold()
     {
-       if(isCircled == false)
-       {
+
+        if(mouseHoldLeftClick)
+        {
+            if(buttonState == false)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        else if(mouseHoldRightClick)
+        {
             if(buttonState == true)
             {
-                var renderer = this.GetComponent<Renderer>();
-
-                renderer.material.SetColor("_Color",Color.red);
+                return true;
             }
-            else if(buttonState == false)
+            else
             {
-                var renderer = this.GetComponent<Renderer>();
-
-                renderer.material.SetColor("_Color",Color.grey);
+                return false;
             }
-       }
-
-       else
-       {
-           if(buttonState == false)
-            {
-                var renderer = this.GetComponent<Renderer>();
-
-                renderer.material.SetColor("_Color",Color.yellow);
-            }
-            else if(buttonState == true)
-            {
-                var renderer = this.GetComponent<Renderer>();
-
-                renderer.material.SetColor("_Color",Color.green);
-            }
-       }
-    }
-
-    private void CheckMouseHold()
-    {
-        if(Input.GetMouseButtonDown(0))
+        }
+        else
         {
-            mouseHold = true;
+            return false;
         }
 
-        if(Input.GetMouseButtonUp(0))
-        {
-            mouseHold = false;
-        }
+            
+
     }
 
-    private bool CheckCanClickEveryTurnGameModeAddition()
+    private bool CheckCanClickCircleAddition()
     {
         if(buttonManager.globalIndex > 0 && buttonState == false)
         {
@@ -241,6 +244,82 @@ public class Button : MonoBehaviour
         else
         {
             return true;
+        }
+    }
+
+    private void CircleColorManager()
+    {
+        if(isCircled == true)
+        {
+            var renderer = this.GetComponent<Renderer>();
+            renderer.material.SetColor("_Color",Color.yellow);
+
+            Debug.Log(this.gameObject.name);
+        }
+    }
+    
+
+    private void CircleAndWallAtTheSameTimeController()
+    {
+        if(isCircled == true && isWall == true)
+        {
+            Debug.Log("error: Circle and wall at the same time");
+        }
+    }
+
+    private void StartAndFinishButtonColorManager()
+    {
+        if(isFinishButton == true)
+        {
+            var renderer = this.GetComponent<Renderer>();
+
+            renderer.material.SetColor("_Color",Color.blue);
+        }
+
+        if(isStartButton == true)
+        {
+            var renderer = this.GetComponent<Renderer>();
+            renderer.material.SetColor("_Color",Color.magenta);
+        }
+    }
+
+    private void FirstButtonManager()
+    {
+        if(isStartButton == true)
+        {
+            buttonManager.globalIndex += 1;
+            buttonManager.clickedButtons[buttonManager.globalIndex + 1] = gameObject.GetComponent<Button>();
+
+        }
+    }
+
+    private bool CheckCanClickLeftRightClickAddition()
+    {
+        if(Input.GetMouseButtonDown(0))
+        {
+            if(buttonState == false)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        else if(Input.GetMouseButtonDown(1))
+        {
+            if(buttonState == true)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        else
+        {
+            return false;
         }
     }
 }
