@@ -14,7 +14,7 @@ public class Button : MonoBehaviour
     public bool isFinishButton = false;
     public bool isCircled = false;
     public bool isWall;
-    
+
     public int currentIndex = -1;
     public int gridIndexX;
     public int gridIndexY;
@@ -34,8 +34,6 @@ public class Button : MonoBehaviour
         mouseHoldRightClick = Input.GetMouseButton(1);
 
         IndexOfButtonIfNonClicked();
-
-        CheckMouseHold();
         
         WallColorManager();
 
@@ -44,14 +42,12 @@ public class Button : MonoBehaviour
         CircleAndWallAtTheSameTimeController();
 
         StartAndFinishButtonColorManager();
-
-        Debug.Log(CheckCanClickLeftRightClickAddition());
         
     }
     
     private void OnMouseEnter() 
     {
-        if(CheckCanClick() && CheckMouseHold())
+        if(CheckCanClickMath() && CheckCanClickLeftRightHoldAddition())
         {
             ClickButton();
         }
@@ -59,7 +55,7 @@ public class Button : MonoBehaviour
 
     private void OnMouseOver()
     {
-        if( CheckCanClick() && CheckCanClickLeftRightClickAddition())
+        if( CheckCanClickMath() && CheckCanClickLeftRightClickAddition())
         {
             ClickButton();
         }
@@ -92,9 +88,8 @@ public class Button : MonoBehaviour
         }
     } 
 
-    public bool CheckCanClick()
+    public bool CheckCanClickMath()
     {
-
         if(CheckCanClickWallAddition() == false)
         {
             return false;
@@ -108,9 +103,7 @@ public class Button : MonoBehaviour
         if(CheckCanClickCircleAddition() == false)
         {
             return false;
-        }
-        
-        
+        }    
 
         if(buttonState == true)
         {
@@ -164,7 +157,7 @@ public class Button : MonoBehaviour
             currentIndex = -1;
         }
     }
-    private bool CheckMouseHold()
+    private bool CheckCanClickLeftRightHoldAddition()
     {
 
         if(mouseHoldLeftClick)
@@ -269,27 +262,10 @@ public class Button : MonoBehaviour
 
     private void StartAndFinishButtonColorManager()
     {
-        if(isFinishButton == true)
-        {
-            var renderer = this.GetComponent<Renderer>();
-
-            renderer.material.SetColor("_Color",Color.blue);
-        }
-
         if(isStartButton == true)
         {
             var renderer = this.GetComponent<Renderer>();
             renderer.material.SetColor("_Color",Color.magenta);
-        }
-    }
-
-    private void FirstButtonManager()
-    {
-        if(isStartButton == true)
-        {
-            buttonManager.globalIndex += 1;
-            buttonManager.clickedButtons[buttonManager.globalIndex + 1] = gameObject.GetComponent<Button>();
-
         }
     }
 
@@ -310,6 +286,34 @@ public class Button : MonoBehaviour
         {
             if(buttonState == true)
             {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+
+    private bool StartButtonHandler()
+    {
+        if(isStartButton == true)
+        {
+            if(buttonManager.globalIndex >= 3)
+            {
+                buttonManager.globalIndex += 1;
+
+                buttonManager.clickedButtons[buttonManager.globalIndex] = gameObject.GetComponent<Button>();
+
+                isStartButton = false;
+
+                isFinishButton = true;
+                
                 return true;
             }
             else

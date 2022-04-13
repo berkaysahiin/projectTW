@@ -5,7 +5,6 @@ using UnityEngine;
 public class ButtonManager : MonoBehaviour
 {
     [HideInInspector] public Button previousClicked;
-    [HideInInspector] public bool resetGame = false;
     [HideInInspector] public int globalIndex = -1;
     public Button lastClicked;
     public Button[] clickedButtons;
@@ -33,19 +32,18 @@ public class ButtonManager : MonoBehaviour
 
         LastClickedButton();
 
-        Debug.Log("Win Status: " +CheckIfWin());
-
         DrawLine();
 
-        LineRendererEnableLoop();
-
-        if (resetGame == true)
+        if(globalIndex > 2 && lastClicked.isFinishButton == true)
         {
-            ResetGame();    
-        }
-        else if(clickedButtons[0] == null)
-        {
-            ResetGame();
+            if(CheckIfWin() == false)
+            {
+                ResetGame();
+            }
+            else
+            {
+                Debug.Log("you won");
+            }
         }
         
     }
@@ -65,18 +63,17 @@ public class ButtonManager : MonoBehaviour
 
     private void ResetGame()
     {
-        resetGame = false;
+        lastClicked.isFinishButton = false;
 
-        globalIndex = -1;
+        lastClicked.isStartButton = true;
 
-        for(int i=0; i<clickedButtons.Length; i++)
-        {
-            if(clickedButtons[i] != null)
-            {
-                clickedButtons[i].buttonState = false;
-                clickedButtons[i] = null;
-            }
-        }
+       for(int i=1 ; i < globalIndex; i++ )
+       {
+           clickedButtons[i].buttonState = false;
+           clickedButtons[i] = null;
+       }
+
+       globalIndex = 0;
     }
 
     private void LastClickedButton()
@@ -93,28 +90,22 @@ public class ButtonManager : MonoBehaviour
 
     private bool CheckIfWin()
     {
-        if(globalIndex > -1 && lastClicked.isFinishButton == true)
-        {
             foreach(Button button in allButtons)
             {
-                if(button.orderIndex == -1 && button.buttonState == true)
+                if(button.orderIndex == -1 && button.buttonState == true && button.isFinishButton == false)
                 {
                     return false;
                 }
-                else if(button.orderIndex > -1 && button.buttonState == false)
+                else if(button.orderIndex > -1 && button.buttonState == false && button.isFinishButton == false)
                 {
                     return false;
                 }
-                else if(button.orderIndex > -1 && button.buttonState == true && button.orderIndex != button.currentIndex)
+                else if(button.orderIndex > -1 && button.buttonState == true && button.orderIndex != button.currentIndex && button.isFinishButton == false)
                 {
                     return false;
                 }
             }
-
             return true;
-        }
-
-        return false;
     }
 
     private void DrawLine()
@@ -127,11 +118,13 @@ public class ButtonManager : MonoBehaviour
 
             _lineRenderer.SetPosition(i,new Vector3(cube.x,cube.y,-16));
         }
+
+        LineRendererEnableLoop();
     }
 
     private void LineRendererEnableLoop()
     {
-        if(globalIndex > -1)
+        if(globalIndex > 2)
         {
             _lineRenderer.loop = lastClicked.isFinishButton;
         }

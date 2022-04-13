@@ -296,7 +296,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 3
   gridIndexY: 8
@@ -536,7 +536,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 0
   gridIndexY: 11
@@ -776,7 +776,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 2
   gridIndexY: 1
@@ -1016,7 +1016,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 1
+  isWall: 0
   currentIndex: 0
   gridIndexX: 8
   gridIndexY: 13
@@ -1256,7 +1256,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 12
   gridIndexY: 6
@@ -1376,7 +1376,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 4
   gridIndexY: 1
@@ -1556,13 +1556,13 @@ MonoBehaviour:
   mouseHoldLeftClick: 0
   buttonState: 0
   isStartButton: 0
-  isFinishButton: 1
+  isFinishButton: 0
   isCircled: 0
   isWall: 0
   currentIndex: 0
   gridIndexX: 0
   gridIndexY: 0
-  orderIndex: 7
+  orderIndex: -1
 --- !u!1 &208072719
 GameObject:
   m_ObjectHideFlags: 0
@@ -1616,7 +1616,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 4
   gridIndexY: 2
@@ -1740,7 +1740,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 8
   gridIndexY: 1
-  orderIndex: -1
+  orderIndex: 9
 --- !u!65 &214290888
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1976,7 +1976,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 8
   gridIndexY: 0
@@ -2100,7 +2100,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 0
   gridIndexY: 2
-  orderIndex: 5
+  orderIndex: -1
 --- !u!65 &244458961
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2336,7 +2336,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 4
   gridIndexY: 8
@@ -2576,7 +2576,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 5
   gridIndexY: 11
@@ -2696,7 +2696,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 3
   gridIndexY: 10
@@ -2936,7 +2936,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 12
   gridIndexY: 4
@@ -3060,7 +3060,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 0
   gridIndexY: 1
-  orderIndex: 6
+  orderIndex: -1
 --- !u!65 &340624173
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3180,7 +3180,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 5
   gridIndexY: 3
-  orderIndex: -1
+  orderIndex: 14
 --- !u!65 &340977352
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3416,7 +3416,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 2
   gridIndexY: 3
@@ -3536,7 +3536,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 11
   gridIndexY: 10
@@ -3656,7 +3656,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 2
   gridIndexY: 10
@@ -3776,7 +3776,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 12
   gridIndexY: 5
@@ -4140,7 +4140,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 9
   gridIndexY: 7
-  orderIndex: -1
+  orderIndex: 26
 --- !u!65 &453874986
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4496,7 +4496,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 6
   gridIndexY: 11
@@ -4616,7 +4616,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 11
   gridIndexY: 0
@@ -4736,7 +4736,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 2
   gridIndexY: 12
@@ -4976,7 +4976,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 2
   gridIndexY: 7
@@ -5095,12 +5095,12 @@ MonoBehaviour:
   buttonState: 0
   isStartButton: 0
   isFinishButton: 0
-  isCircled: 1
+  isCircled: 0
   isWall: 0
   currentIndex: 0
   gridIndexX: 3
   gridIndexY: 7
-  orderIndex: -1
+  orderIndex: 20
 --- !u!65 &545904339
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5216,7 +5216,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 10
   gridIndexY: 2
@@ -5340,7 +5340,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 10
   gridIndexY: 5
-  orderIndex: -1
+  orderIndex: 1
 --- !u!65 &567993221
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5456,7 +5456,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 8
   gridIndexY: 4
@@ -5576,7 +5576,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 4
   gridIndexY: 5
@@ -5696,7 +5696,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 9
   gridIndexY: 0
@@ -5816,7 +5816,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 7
   gridIndexY: 9
@@ -6033,7 +6033,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 6
   gridIndexY: 1
-  orderIndex: -1
+  orderIndex: 11
 --- !u!65 &630879244
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6146,14 +6146,14 @@ MonoBehaviour:
   mouseHoldRightClick: 0
   mouseHoldLeftClick: 0
   buttonState: 0
-  isStartButton: 0
+  isStartButton: 1
   isFinishButton: 0
   isCircled: 0
   isWall: 0
   currentIndex: 0
   gridIndexX: 9
   gridIndexY: 5
-  orderIndex: -1
+  orderIndex: 0
 --- !u!65 &651028228
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6269,11 +6269,11 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 1
+  isWall: 0
   currentIndex: 0
   gridIndexX: 10
   gridIndexY: 1
-  orderIndex: -1
+  orderIndex: 7
 --- !u!65 &659156394
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6393,7 +6393,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 9
   gridIndexY: 1
-  orderIndex: -1
+  orderIndex: 8
 --- !u!65 &668920204
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6629,11 +6629,11 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 1
   gridIndexY: 3
-  orderIndex: 3
+  orderIndex: -1
 --- !u!65 &696592763
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6753,7 +6753,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 7
   gridIndexY: 1
-  orderIndex: -1
+  orderIndex: 10
 --- !u!65 &716617514
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6869,7 +6869,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 3
   gridIndexY: 0
@@ -7109,7 +7109,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 9
   gridIndexY: 11
@@ -7229,7 +7229,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 1
+  isWall: 0
   currentIndex: 0
   gridIndexX: 3
   gridIndexY: 9
@@ -7709,7 +7709,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 5
   gridIndexY: 6
@@ -8069,7 +8069,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 5
   gridIndexY: 10
@@ -8189,7 +8189,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 5
   gridIndexY: 8
@@ -8429,7 +8429,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 2
   gridIndexY: 11
@@ -8549,7 +8549,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 7
   gridIndexY: 2
@@ -8655,7 +8655,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 2
   gridIndexY: 0
@@ -8789,7 +8789,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 4
   gridIndexY: 6
@@ -9029,7 +9029,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 10
   gridIndexY: 9
@@ -9153,7 +9153,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 9
   gridIndexY: 6
-  orderIndex: -1
+  orderIndex: 27
 --- !u!65 &876087719
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9269,7 +9269,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 6
   gridIndexY: 4
@@ -9389,7 +9389,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 6
   gridIndexY: 8
@@ -9513,7 +9513,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 4
   gridIndexY: 4
-  orderIndex: -1
+  orderIndex: 16
 --- !u!65 &882008051
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9629,7 +9629,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 0
   gridIndexY: 12
@@ -9845,7 +9845,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 10
   gridIndexY: 6
@@ -9965,7 +9965,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 9
   gridIndexY: 13
@@ -10085,7 +10085,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 10
   gridIndexY: 0
@@ -10205,7 +10205,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 9
   gridIndexY: 2
@@ -10768,7 +10768,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 8
   gridIndexY: 5
@@ -10888,7 +10888,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 6
   gridIndexY: 0
@@ -11008,7 +11008,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 12
   gridIndexY: 3
@@ -11128,7 +11128,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 2
   gridIndexY: 8
@@ -11612,7 +11612,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 5
   gridIndexY: 7
-  orderIndex: -1
+  orderIndex: 22
 --- !u!65 &1060103304
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11852,7 +11852,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 11
   gridIndexY: 3
-  orderIndex: -1
+  orderIndex: 4
 --- !u!65 &1075117226
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12088,7 +12088,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 12
   gridIndexY: 2
@@ -12208,7 +12208,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 10
   gridIndexY: 4
@@ -12328,7 +12328,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 0
   gridIndexY: 9
@@ -12448,7 +12448,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 7
   gridIndexY: 0
@@ -12568,7 +12568,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 8
   gridIndexY: 11
@@ -12808,11 +12808,11 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 0
   gridIndexY: 3
-  orderIndex: 4
+  orderIndex: -1
 --- !u!65 &1150388338
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13048,7 +13048,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 6
   gridIndexY: 5
@@ -13168,7 +13168,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 0
   gridIndexY: 13
@@ -13648,7 +13648,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 8
   gridIndexY: 9
@@ -13768,7 +13768,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 2
   gridIndexY: 4
@@ -14008,7 +14008,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 11
   gridIndexY: 6
@@ -14368,7 +14368,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 6
   gridIndexY: 3
@@ -14488,11 +14488,11 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 1
+  isWall: 0
   currentIndex: 0
   gridIndexX: 11
   gridIndexY: 2
-  orderIndex: -1
+  orderIndex: 5
 --- !u!65 &1346712866
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14612,7 +14612,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 6
   gridIndexY: 7
-  orderIndex: -1
+  orderIndex: 23
 --- !u!65 &1354849533
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14848,7 +14848,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 6
   gridIndexY: 6
@@ -14968,7 +14968,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 9
   gridIndexY: 12
@@ -15092,7 +15092,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 11
   gridIndexY: 5
-  orderIndex: -1
+  orderIndex: 2
 --- !u!65 &1413630394
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15191,14 +15191,14 @@ MonoBehaviour:
   mouseHoldRightClick: 0
   mouseHoldLeftClick: 0
   buttonState: 0
-  isStartButton: 1
+  isStartButton: 0
   isFinishButton: 0
   isCircled: 0
   isWall: 0
   currentIndex: 0
   gridIndexX: 1
   gridIndexY: 0
-  orderIndex: 0
+  orderIndex: -1
 --- !u!65 &1419610331
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15448,7 +15448,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 7
   gridIndexY: 8
@@ -15928,7 +15928,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 5
   gridIndexY: 0
@@ -16052,7 +16052,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 1
   gridIndexY: 1
-  orderIndex: 1
+  orderIndex: -1
 --- !u!65 &1512211507
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16408,7 +16408,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 2
   gridIndexY: 6
@@ -16532,7 +16532,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 11
   gridIndexY: 4
-  orderIndex: -1
+  orderIndex: 3
 --- !u!65 &1545841364
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16652,7 +16652,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 1
   gridIndexY: 2
-  orderIndex: 2
+  orderIndex: -1
 --- !u!65 &1580483585
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17498,7 +17498,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 2
   gridIndexY: 2
@@ -17622,7 +17622,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 5
   gridIndexY: 2
-  orderIndex: -1
+  orderIndex: 13
 --- !u!65 &1690189267
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17742,7 +17742,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 5
   gridIndexY: 1
-  orderIndex: -1
+  orderIndex: 12
 --- !u!65 &1694122560
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17858,7 +17858,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 7
   gridIndexY: 11
@@ -17978,7 +17978,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 11
   gridIndexY: 9
@@ -18102,7 +18102,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 11
   gridIndexY: 1
-  orderIndex: -1
+  orderIndex: 6
 --- !u!65 &1729183912
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18218,11 +18218,11 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 1
+  isWall: 0
   currentIndex: 0
   gridIndexX: 3
   gridIndexY: 5
-  orderIndex: -1
+  orderIndex: 18
 --- !u!65 &1757977892
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18462,7 +18462,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 7
   gridIndexY: 7
-  orderIndex: -1
+  orderIndex: 24
 --- !u!65 &1765496454
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18578,7 +18578,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 8
   gridIndexY: 2
@@ -18818,7 +18818,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 7
   gridIndexY: 6
@@ -19057,8 +19057,8 @@ MonoBehaviour:
   buttonState: 0
   isStartButton: 0
   isFinishButton: 0
-  isCircled: 1
-  isWall: 0
+  isCircled: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 0
   gridIndexY: 10
@@ -19178,7 +19178,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 5
   gridIndexY: 5
@@ -19275,7 +19275,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   previousClicked: {fileID: 0}
-  resetGame: 0
   globalIndex: -1
   lastClicked: {fileID: 0}
   clickedButtons:
@@ -19832,7 +19831,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 6
   gridIndexY: 2
@@ -20076,7 +20075,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 3
   gridIndexY: 6
-  orderIndex: -1
+  orderIndex: 19
 --- !u!65 &1893923883
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20192,7 +20191,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 12
   gridIndexY: 1
@@ -20316,7 +20315,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 5
   gridIndexY: 4
-  orderIndex: -1
+  orderIndex: 15
 --- !u!65 &1942232990
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20432,7 +20431,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 11
   gridIndexY: 12
@@ -20676,7 +20675,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 4
   gridIndexY: 7
-  orderIndex: -1
+  orderIndex: 21
 --- !u!65 &1969406470
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21032,11 +21031,11 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 1
+  isWall: 0
   currentIndex: 0
   gridIndexX: 3
   gridIndexY: 4
-  orderIndex: -1
+  orderIndex: 17
 --- !u!65 &1987783207
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21152,7 +21151,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 3
   gridIndexY: 13
@@ -21276,7 +21275,7 @@ MonoBehaviour:
   currentIndex: 0
   gridIndexX: 8
   gridIndexY: 7
-  orderIndex: -1
+  orderIndex: 25
 --- !u!65 &2023521190
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21392,7 +21391,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 3
   gridIndexY: 12
@@ -21632,7 +21631,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 9
   gridIndexY: 4
@@ -21752,7 +21751,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 9
   gridIndexY: 9
@@ -21872,7 +21871,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 1
+  isWall: 0
   currentIndex: 0
   gridIndexX: 12
   gridIndexY: 10
@@ -22112,7 +22111,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 1
+  isWall: 0
   currentIndex: 0
   gridIndexX: 2
   gridIndexY: 13
@@ -22472,7 +22471,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 12
   gridIndexY: 0
@@ -22592,7 +22591,7 @@ MonoBehaviour:
   isStartButton: 0
   isFinishButton: 0
   isCircled: 0
-  isWall: 0
+  isWall: 1
   currentIndex: 0
   gridIndexX: 8
   gridIndexY: 6
