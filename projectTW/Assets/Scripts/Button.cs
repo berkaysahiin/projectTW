@@ -41,7 +41,6 @@ public class Button : MonoBehaviour
         CircleAndWallAtTheSameTimeController();
 
         StartAndFinishButtonColorManager();
-        
     }
     
     private void OnMouseEnter() 
