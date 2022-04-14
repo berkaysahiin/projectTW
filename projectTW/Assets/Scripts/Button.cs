@@ -18,13 +18,14 @@ public class Button : MonoBehaviour
     public int gridIndexX;
     public int gridIndexY;
     public int orderIndex = -1;
+
+    [HideInInspector] public MouseLook mouseLook;
     
     
     private void Start()
     {
-        buttonManager = FindObjectOfType<ButtonManager>();
-
-        
+        mouseLook = FindObjectOfType<MouseLook>();
+        buttonManager = this.gameObject.GetComponentInParent<ButtonManager>();
     }
 
     void Update()
@@ -45,7 +46,7 @@ public class Button : MonoBehaviour
     
     private void OnMouseEnter() 
     {
-        if(CheckCanClickMath() && CheckCanClickLeftRightHoldAddition())
+        if(CheckCanClickMath() && CheckCanClickLeftRightHoldAddition() && mouseLook.puzzleMode == true)
         {
             ClickButton();
         }
@@ -53,7 +54,7 @@ public class Button : MonoBehaviour
 
     private void OnMouseOver()
     {
-        if( CheckCanClickMath() && CheckCanClickLeftRightClickAddition())
+        if( CheckCanClickMath() && CheckCanClickLeftRightClickAddition() && mouseLook.puzzleMode == true)
         {
             ClickButton();
         }
@@ -300,7 +301,7 @@ public class Button : MonoBehaviour
 
     private bool CheckCanClickFirstButtonAddition()
     {
-        if(isStartButton == true)
+        if(isStartButton == true && this.gameObject.GetComponent<Button>() == buttonManager.clickedButtons[0])
         {
             if(buttonManager.globalIndex < 3)
             {

@@ -10,9 +10,13 @@ public class ButtonManager : MonoBehaviour
     public Button[] clickedButtons;
     public Button[] allButtons;
     [SerializeField] LineRenderer _lineRenderer;
+
+    float clampMagnitude;
     
     private void Start()
     {
+        clampMagnitude = transform.localScale.z + 0.01f;
+
         allButtons = this.gameObject.GetComponentsInChildren<Button>();
 
         clickedButtons = new Button[allButtons.Length];
@@ -109,11 +113,11 @@ public class ButtonManager : MonoBehaviour
         {
             Vector3 cube = clickedButtons[i].GetComponent<Transform>().position;
 
-            Vector3 cubeLocal = cube - transform.forward;
+            Vector3 cubeLocal = cube - Vector3.ClampMagnitude(transform.forward, clampMagnitude);
 
             _lineRenderer.SetPosition(i,new Vector3(cubeLocal.x, cubeLocal.y, cubeLocal.z));
         }
-        
+
         LineRendererEnableLoop();
     }
 

@@ -32,7 +32,7 @@ public class MouseLook : MonoBehaviour
         {
             ReleaseCursor();
 
-            Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
+            //Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
             
         }
         
