@@ -317,4 +317,14 @@ public class Button : MonoBehaviour
             return true;
         }
     }
+
+    private void Sil()
+    {
+        if(buttonState == true && isStartButton == false)
+        {
+            var renderer = this.gameObject.GetComponent<Renderer>();
+
+            renderer.material.SetColor("_Color",Color.blue);
+        }
+    }
 }
