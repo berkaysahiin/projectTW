@@ -9,6 +9,13 @@ public class PlayerMovement : MonoBehaviour {
     bool isGrounded;
     Vector3 velocity;
 
+    private MouseLook mouseLook;
+
+    private void Start()
+    {
+        mouseLook = GetComponentInChildren<MouseLook>();
+    }
+
     // Update is called once per frame
     void Update() 
     {
@@ -28,7 +35,8 @@ public class PlayerMovement : MonoBehaviour {
         }
 
         velocity.y -= 19.62f * Time.deltaTime;
-
-        controller.Move((transform.right * Input.GetAxis("Horizontal") * speed + transform.up * velocity.y + transform.forward * Input.GetAxis("Vertical") * speed) * Time.deltaTime);
+        
+        if(mouseLook.puzzleMode == false)
+            controller.Move((transform.right * Input.GetAxis("Horizontal") * speed + transform.up * velocity.y + transform.forward * Input.GetAxis("Vertical") * speed) * Time.deltaTime);
     }
 }

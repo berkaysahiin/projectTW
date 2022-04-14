@@ -105,8 +105,6 @@ public class ButtonManager : MonoBehaviour
     {
         _lineRenderer.positionCount = globalIndex + 1;
 
-        if(globalIndex > 1)
-        {
             for(int i = 0; i< _lineRenderer.positionCount; i++ )
         {
             Vector3 cube = clickedButtons[i].GetComponent<Transform>().position;
@@ -115,8 +113,7 @@ public class ButtonManager : MonoBehaviour
 
             _lineRenderer.SetPosition(i,new Vector3(cubeLocal.x, cubeLocal.y, cubeLocal.z));
         }
-        }
-
+        
         LineRendererEnableLoop();
     }
 

@@ -4,37 +4,76 @@ using UnityEngine;
 
 public class MouseLook : MonoBehaviour
 {
-    
-
-    [SerializeField] private float mounseSensivty;
     [SerializeField] private Transform playerBody;
-    [SerializeField] private float xRotation;
+    public bool puzzleMode;
 
-    private void Start()
-    {
-        
-        
-    }
-    
+    [SerializeField] private float xRotation;
+    [SerializeField] private float mounseSensivty;  
+    private float mouseX;
+    private float mouseY;
+
+    public Texture2D cursorTexture;
+    public CursorMode cursorMode = CursorMode.Auto;
+    public Vector2 hotSpot = Vector2.zero;
+
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.K))
+        GetMouseInput();
+
+        if(PuzzleModeInAndOutManagar() == false)
         {
-            Cursor.lockState = CursorLockMode.Locked;
+            FPSController();
+            LockCursor();
+
+            
+       
         }
-        if(Input.GetKeyDown(KeyCode.L))
+        else
         {
-            Cursor.lockState = CursorLockMode.None;
+            ReleaseCursor();
+
+            Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
+            
+        }
+        
+    }
+
+    private void GetMouseInput()
+    {
+        mouseX = Input.GetAxis("Mouse X") * Time.deltaTime * mounseSensivty;
+        mouseY = Input.GetAxis("Mouse Y") * Time.deltaTime * mounseSensivty;
+    }
+
+    private bool PuzzleModeInAndOutManagar()
+    {
+        if(Input.GetKey(KeyCode.E))
+        {
+            puzzleMode = true;
+        }
+        else
+        {
+            puzzleMode = false;
         }
 
-        float mouseX = Input.GetAxis("Mouse X") * Time.deltaTime * mounseSensivty;
-        float mouseY = Input.GetAxis("Mouse Y") * Time.deltaTime * mounseSensivty;
+        return puzzleMode;
+    }
 
-        xRotation -= mouseY;
+    private void LockCursor()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+    }
 
-        xRotation = Mathf.Clamp(xRotation,-90f,90f);
+    private void ReleaseCursor()
+    {
+        Cursor.lockState = CursorLockMode.None;
+    }
 
-        transform.localRotation = Quaternion.Euler(xRotation,0f,0f);
+    private void FPSController()
+    {
         playerBody.Rotate(Vector3.up * mouseX);
+            
+        xRotation -= mouseY;
+        xRotation = Mathf.Clamp(xRotation,-90f,90f);
+        transform.localRotation = Quaternion.Euler(xRotation,0f,0f);
     }
 }

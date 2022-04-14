@@ -317,9 +317,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8903dbc9c09b58f42904f9985e2723b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mounseSensivty: 150
   playerBody: {fileID: 2019290859}
+  puzzleMode: 0
   xRotation: 0
+  mounseSensivty: 150
+  cursorTexture: {fileID: 2800000, guid: 145a509aef2ed50439e681c13b88a907, type: 3}
+  cursorMode: 0
+  hotSpot: {x: 0, y: 0}
 --- !u!1 &1484750348
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,7 +605,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1367383727589568272, guid: 2f4ab96597fade1488ece6780f7789a6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.29
+      value: -5.5
       objectReference: {fileID: 0}
     - target: {fileID: 1367383727589568272, guid: 2f4ab96597fade1488ece6780f7789a6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -714,4 +718,4 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 8
-  speed: 12
+  speed: 15
